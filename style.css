@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+  width: 100%;
+  height: 100vh;  
+}
+
+
+
+
+
+
+footer {
+  padding: 100px;
+  background-color: rgb(206, 216, 198);
+  text-align: center;
+}
+
+.div-digital {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.div-digital p {
+  text-align: center;
+   color: rgb(0, 0, 0);
+   font-size: 1.8;
+}
+
+.div-i hr {
+  margin-top: 10px;
+}
+
+.div-i i {
+  margin-top: 1em;
+  margin: 2rem;
+  color: rgb(4, 175, 167);
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.div-i i:hover {
+  color: rgb(207, 5, 106);
+  transition: 0.9s;
+}
