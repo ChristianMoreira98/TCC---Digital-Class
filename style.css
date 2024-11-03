@@ -1,44 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Fonte */
+
+:root{
+  --bluew: #91D7F2;
+  --cream: #F2F0EB;
+  --white: #F2F2F2;
+  --gray: #2F3240;
+  --grayb: #262626;
+  --black: #0D0D0D;
+  --purple: #9430BF;
+  --purples: #643DF2;
+  --red: #F20519;
+  --yellow: #F2CB05;
+  --green: #55D976;
 }
+/* Paleta de cores */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+/* Resetando a página */
 
 html{
   width: 100%;
   height: 100vh;  
 }
+/* Usando 100% de cada área do site */
 
+body{
+  background-color: var(--black);
+  color: var(--white);
+}
+/* Configurando cores padrões */
 
-
-
-
-
-footer {
+footer{
   padding: 100px;
   background-color: rgb(206, 216, 198);
   text-align: center;
 }
+/* Rodapé do site */
 
-.div-digital {
+.div-digital{
   display: flex; 
   justify-content: space-between;
 }
 
-.div-digital p {
+.div-digital p{
   text-align: center;
    color: rgb(0, 0, 0);
    font-size: 1.8;
 }
 
-.div-i hr {
+.div-i hr{
   margin-top: 10px;
 }
 
-.div-i i {
+.div-i i{
   margin-top: 1em;
   margin: 2rem;
   color: rgb(4, 175, 167);
@@ -46,7 +66,7 @@ footer {
   font-weight: 800;
 }
 
-.div-i i:hover {
+.div-i i:hover{
   color: rgb(207, 5, 106);
   transition: 0.9s;
 }
