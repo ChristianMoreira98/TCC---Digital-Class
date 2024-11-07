@@ -6,9 +6,9 @@
   --cream: #F2F0EB;
   --white: #F2F2F2;
   --gray: #2F3240;
-  --grayb: #262626;
+  --grayb: #1d1d1d;
   --black: #0D0D0D;
-  --purple: #9430BF;
+  --purple: #987cff;
   --purples: #643DF2;
   --red: #F20519;
   --yellow: #F2CB05;
@@ -32,7 +32,7 @@ html{
 /* Usando 100% de cada área do site */
 
 body{
-  background-color: var(--black);
+  background-color: var(--grayb);
   color: var(--white);
 }
 /* Configurando cores padrões */
@@ -43,6 +43,19 @@ header{
   align-items: center;
   gap: 5rem;
   /* Posicionamento das caixas */
+}
+
+.whatsapp{
+  position: relative;
+}
+
+.whatsapp img{
+  width: 100px;
+  /* Altura e Largura */
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  /* Posicionamento do logo do WhatsApp */
 }
 
 .button button{
@@ -67,6 +80,38 @@ header{
 .button-green button{
   background-color: var(--greenb);
   color: var(--white);
+  /* Cores */
+}
+
+.section01{
+  padding: 80px;
+  /* Espaçamento */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* Posicionamento */
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  /* Posicionamento */
+  width: 888px;
+  height: auto;
+  /* Altura e Largura */
+}
+
+.text h2{
+  color: var(--purples);
+  /* Cores */
+}
+
+span{
+  color: var(--green);
+  /* Cores */
 }
 
 footer{
