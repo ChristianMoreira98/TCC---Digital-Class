@@ -37,11 +37,13 @@ body{
 }
 /* Configurando cores padrões */
 
+
+/* Aqui é a estilização do nosso header */
 header{
-  display: flex;
-  justify-content: center;
+  display: flex; /* Deixamos os itens lado a lado*/
+  justify-content: center; /*Justificamos os conteúdos*/
   align-items: center;
-  gap: 5rem;
+  gap: 5rem; 
   /* Posicionamento das caixas */
 }
 
