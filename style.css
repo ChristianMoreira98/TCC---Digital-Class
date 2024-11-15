@@ -37,6 +37,42 @@ body{
 }
 /* Configurando cores padrões */
 
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  /* Posicionamento */
+  background-color: var(--purples);
+  color: var(--white);
+  /* Cores */
+  padding: 15px;
+  /* Espaçamento */
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  /* Posicionamento */
+}
+
+.links a{
+  color: var(--cream);
+  /* Cores */
+  text-decoration: none;
+  font-size: 18px;
+  /* Texto */
+  transition: 1s ease;
+}
+
+.links a:hover {
+  text-decoration: overline 2px solid var(--purple);
+  /* Texto */
+}
+
 
 /* Aqui é a estilização do nosso header */
 header{
@@ -45,6 +81,7 @@ header{
   align-items: center;
   gap: 5rem; 
   /* Posicionamento das caixas */
+  margin-top: 15px;
 }
 
 .whatsapp{
