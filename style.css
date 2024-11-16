@@ -39,7 +39,7 @@ body{
 
 .div {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   top: 0;
   position: sticky;
@@ -49,13 +49,18 @@ body{
   /* Cores */
   padding: 15px;
   /* Espaçamento */
+  z-index: 999;
+}
+
+.text-titule p{
+  font-size: 21px;
 }
 
 .links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 3em;
   /* Posicionamento */
 }
 
@@ -73,6 +78,21 @@ body{
   /* Texto */
 }
 
+.box-textanimation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Posicionamento */
+  padding: 0.5em;
+  /* Espaçamento */
+  margin-top: 1em;
+}
+
+h1{
+  text-align: center;
+  /* Alinhando texto ao centro */
+}
+
 
 /* Aqui é a estilização do nosso header */
 header{
@@ -81,7 +101,17 @@ header{
   align-items: center;
   gap: 5rem; 
   /* Posicionamento das caixas */
-  margin-top: 15px;
+  background-image: url(imagens/GirlwallpaperHeader.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Plano de fundo header */
+  padding: 250px;
+  /* Espaçamento */
+  border-radius: 12px;
+  /* Bordas */
+  margin: 15px;
+  /* Margens */
 }
 
 .whatsapp{
@@ -108,6 +138,8 @@ header{
   /* Bordas */
   cursor: pointer;
   /* Cursor */
+  position: relative;
+  top: 225px;
 }
 
 .button-purple button{
@@ -151,6 +183,22 @@ header{
 span{
   color: var(--green);
   /* Cores */
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  /* Posicionamento */
+  margin-top: 2em;
+}
+
+.content img{
+  width: 270px;
+  /* Largura e altura */
+  border-radius: 15px;
+  /* Bordas */
 }
 
 footer{
