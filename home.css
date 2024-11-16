@@ -9,6 +9,10 @@
     font-family: Poppins;
 }
 
+body{
+   background-color: #0D0D0D;
+}
+
 html{
     width: 100%;
     height: 100vh;
@@ -21,6 +25,11 @@ header{
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    position: sticky;
+top: 0;
+left: 0;
+z-index: 999;
+width: 100%;
 }
 
 header img{
@@ -42,27 +51,63 @@ header a:hover{
     transition: 0.1s;
 }
 
-header button{
-width: auto;
-    height: 5vh;
-    padding: 10px;
+
+
+header .button button{
+    width: auto;
+    height: 2.5rem;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
     background-color: #643DF2;
-    color: #F2F2F2;
-    border-radius: 25%;
-text-align: center;
-display: flex;
-align-items: center;
-font-weight: 600;
+    color: #F2F0EB;
+    font-weight: 600;
+    border:  2px solid ;
 }
 
-    header button:hover{
-        background-color:  #987cff;
-        transition: 0.8s;
-        font-weight: 700;
-        cursor: pointer;
-    }
+
+header .button button:hover{
+    background-color: #987cff;
+    color:  #F2F2F2;
+    transition: 0.8s;
+}
+
 
     .section-1{
-        padding: min(50vh, 45rem);
+        padding: min(5vh, 5rem);
         background-color: #0D0D0D;
+        width: 100%;
+    }
+
+    .container-carrossel{
+        overflow: hidden; /*Esconde partes das imagens que saem do container*/
+        width: 100%; /*O container ocupa toda a largura da página*/
+        max-width: 80vw; /* O container ocupa no máximo 80% da largura da viewport */
+        margin: auto; /*Centraliza o container*/
+    }
+    
+    /*Estilo da faixa de imagens*/
+    .itens-carrossel{
+        display: flex; /*Coloca as imagens lado a lado em linha*/
+        transition: transform 0.5s ease;  /*Animação suave para a transição*/
+    }
+    
+    /*Cada item do carrossel*/ 
+    .carrossel-item{
+    flex: 0 0 100%;  /* Cada item ocupa 100% da largura do container*/
+    }
+    
+    img{
+    width: 100%; /*As imagens ocupam toda a largura do item*/
+    display: block; /*Garante que não haja espaçamento abaixo das imagens*/
+    }
+
+
+    .section2{
+        background-color: #F2F2F2;
+        padding: min(45vh, 40rem);
+        width: 100%;
     }
