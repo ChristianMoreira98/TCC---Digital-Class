@@ -1,28 +1,16 @@
-// //função que altera a cor de fundo e do texto para garantue cibtraste.
-
-// function trocarCor(){
-//     if(document.body.style.backgroundColor==="black") {
-//     //se estiver preto, mudar para branco e alterar o texto para preto.
-//     document.body.style.backgroundColor = "white";
-//     document.body.style.color = "black";
-    
-//     //atualiza o texto do botão para indicar o modo escuro
-//     document.getElementById("toggleButton").
-//     textContent = "Modo Escuro";
-//     } 
-//     else {
-//     document.body.style.backgroundColor = "black"
-//     document.body.style.color = "white"
-//     //Artualiza o texto do botão para indicar o Modo claro
-    
-//     document.getElementById("toggleButton").
-//     textContent = "Modo Claro";
-//     }
-//     };
-
-    // Rolagem
+// Rolagem
 ScrollReveal().reveal("#buttonHeader", {
     distance: "10px",
     origin: "bottom",
-    duration: 2500,
+    duration: 5000,
+});
+
+// Texto animado
+
+const typed = new Typed('#textAnimation', {
+    strings: ["Seja bem-vindo a Digital Class!"],
+    typeSpeed: 75,
+    backSpeed: 60,
+    fadeOut: true,
+    showCursor: false,
 });
