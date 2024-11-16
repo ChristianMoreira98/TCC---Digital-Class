@@ -1,6 +1,6 @@
 // Rolagem
 ScrollReveal().reveal("#buttonHeader", {
-    distance: "10px",
+    distance: "25px",
     origin: "bottom",
     duration: 5000,
 });
@@ -9,7 +9,7 @@ ScrollReveal().reveal("#buttonHeader", {
 
 const typed = new Typed('#textAnimation', {
     strings: ["Seja bem-vindo a Digital Class!"],
-    typeSpeed: 75,
+    typeSpeed: 25,
     backSpeed: 60,
     fadeOut: true,
     showCursor: false,
