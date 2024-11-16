@@ -52,31 +52,31 @@ header a:hover{
 }
 
 
-
-header .button button{
-    width: auto;
-    height: 2.5rem;
-    border-radius: 20px;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    background-color: #643DF2;
-    color: #F2F0EB;
-    font-weight: 600;
-    border:  2px solid ;
+.login{
+ width: 2rem;
+ height: 2rem;
+ background-color: black;
+ border-radius: 50%;
+ border: solid 2px #F2F0EB;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
 }
 
-
-header .button button:hover{
-    background-color: #987cff;
-    color:  #F2F2F2;
+.login:hover{
+    background-color:#F2F0EB ;
     transition: 0.8s;
+    cursor: pointer;
 }
 
-
-    .section-1{
+ header i{
+font-size: 1.5rem;
+color: #643DF2;
+ }
+ 
+ 
+ .section-1{
         padding: min(5vh, 5rem);
         background-color: #0D0D0D;
         width: 100%;
@@ -87,6 +87,8 @@ header .button button:hover{
         width: 100%; /*O container ocupa toda a largura da página*/
         max-width: 80vw; /* O container ocupa no máximo 80% da largura da viewport */
         margin: auto; /*Centraliza o container*/
+        border: 3px solid #643DF2;
+        border-radius: 20px;
     }
     
     /*Estilo da faixa de imagens*/
@@ -110,4 +112,28 @@ header .button button:hover{
         background-color: #F2F2F2;
         padding: min(45vh, 40rem);
         width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+        padding: min(6vh, 3rem);
+        background-color: #987cff;
     }

@@ -64,6 +64,33 @@ body{
   /* Posicionamento */
 }
 
+header i{
+  font-size: 1.5rem;
+  color: #643DF2;
+   }
+   
+
+.login{
+  width: 2rem;
+  height: 2rem;
+  background-color: black;
+  border-radius: 50%;
+  border: solid 2px #F2F0EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+ }
+ 
+ .login:hover{
+     background-color:#F2F0EB ;
+     color: black;
+     transition: 0.8s;
+     cursor: pointer;
+ }
+ 
+ 
+
 .links a{
   color: var(--cream);
   /* Cores */
