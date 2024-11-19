@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+body{
+    background-color: #0D0D0D;
+ }
+ 
+ html{
+     width: 100%;
+     height: 100vh;
+ }
+ 
+ header{
+     padding: min(4vh, 8rem);
+     background-color: #0D0D0D;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     position: sticky;
+ top: 0;
+ left: 0;
+ z-index: 999;
+ width: 100%;
+ }
+ 
+ header img{
+     width: 5rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ header a{
+     margin-right: 2vh;
+     color: #F2F2F2;
+     font-weight: 800;
+ 
+ }
+ 
+ header a:hover{
+     border-bottom: 2.5px solid#643DF2;
+     transition: 0.1s;
+ }
+ 
+ 
+ .login{
+  width: 2rem;
+  height: 2rem;
+  background-color: black;
+  border-radius: 50%;
+  border: solid 2px #F2F0EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+ }
+ 
+ .login:hover{
+     background-color:#F2F0EB ;
+     transition: 0.8s;
+     cursor: pointer;
+ }
+ 
+  header i{
+ font-size: 1.5rem;
+ color: #643DF2;
+  }
+
+  .section-2{
+background-color: #643DF2;
+padding: 120px;
+width: 100%;
+  }
+
+ .section-2 h1{
+    font-size: 2rem;
+    text-align: center;
+    color: #F2F0EB;
+ }
+
+ .section-2 .div-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  
+ }
+
+ .div-button button{
+    height: 50px;
+    width: 17rem;
+    border-radius: 1.5rem;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+ }
+
+
+ .div-button button:hover{
+    background-color:  #F2F0EB;
+    border-color: black;
+    color: black;
+    cursor: pointer;
+    transition: 0.9s;
+ }
+
+
+ .section-2 p{
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+   
+ }
+ .section-3{
+    padding: 100px;
+    background-color: #643DF2;
+    text-align: center;
+
+ }
+
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    color: white;
+} 
+
+.box-form{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
