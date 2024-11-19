@@ -7,10 +7,10 @@ ScrollReveal().reveal("#buttonHeader", {
 
 // Texto animado
 
-const typed = new Typed('#textAnimation', {
-    strings: ["Seja bem-vindo a Digital Class!"],
-    typeSpeed: 25,
-    backSpeed: 60,
-    fadeOut: true,
-    showCursor: false,
-});
+// const typed = new Typed('#textAnimation', {
+//     strings: ["Seja bem-vindo a Digital Class!"],
+//     typeSpeed: 25,
+//     backSpeed: 60,
+//     fadeOut: true,
+//     showCursor: false,
+// });

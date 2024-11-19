@@ -32,7 +32,7 @@ html{
 /* Usando 100% de cada área do site */
 
 body{
-  background-color: var(--grayb);
+  background-color: var(--black);
   color: var(--white);
 }
 /* Configurando cores padrões */
@@ -44,23 +44,23 @@ body{
   top: 0;
   position: sticky;
   /* Posicionamento */
-  background-color: var(--purples);
+  background-color: var(--black);
   color: var(--white);
   /* Cores */
-  padding: 15px;
+  padding: min(4vh, 8rem);
   /* Espaçamento */
   z-index: 999;
 }
 
-.text-titule p{
-  font-size: 21px;
+.image-header img{
+  width: 80px;
 }
 
 .links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3em;
+  gap: 1rem;
   /* Posicionamento */
 }
 
@@ -95,7 +95,8 @@ header i{
   color: var(--cream);
   /* Cores */
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1em;
+  font-weight: 800;
   /* Texto */
   transition: 1s ease;
 }
