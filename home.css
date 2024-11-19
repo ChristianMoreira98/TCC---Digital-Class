@@ -109,14 +109,63 @@ color: #643DF2;
 
 
     .section2{
-        background-color: black;
+        background-color: #0D0D0D;
         padding: min(45vh, 40rem);
         width: 100%;
+        color: white;
     }
 
 
+    .container-section2{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
 
 
+.h1-button{
+    ;
+}
+
+.h1-button h1{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.h1-button p{
+    font-size: 1rem;
+    margin-bottom: 30px;
+    
+}
+
+.h1-button p span{
+    color: #987cff;
+    font-weight: 600;
+}
+
+
+.h1-button a button{
+    padding: 8px;
+    text-align: center;
+width: 200px;
+border-radius: 40px;
+background-color: #643DF2;
+color: #F2F0EB;
+border: 2px solid #987cff;
+cursor: pointer;
+font-weight: 600;
+}
+
+.h1-button a button:hover{
+    background-color: #987cff;
+    transition: 0.5s;
+    color: #0D0D0D;
+}
+
+
+.img-section2{
+    width: 400vw;
+}
 
 
 
