@@ -5,6 +5,12 @@ ScrollReveal().reveal("#buttonHeader", {
     duration: 5000,
 });
 
+ScrollReveal().reveal("#imageThree", {
+    distance: "100px",
+    origin: "left",
+    duration: 2000,
+});
+
 // Texto animado
 
 // const typed = new Typed('#textAnimation', {

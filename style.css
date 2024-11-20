@@ -288,6 +288,31 @@ span{
   /* Texto */
 }
 
+.section03{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+  gap: 50px;
+  /* Posicionamento */
+}
+
+.flex-s3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* Posicionamento */
+}
+
+.texts3{
+  width: 750px;
+}
+
+.image-s3 img{
+  width: 450px;
+}
+
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 footer{
   padding: min(6vh, 3rem);
