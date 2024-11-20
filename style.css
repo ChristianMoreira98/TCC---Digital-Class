@@ -22,6 +22,8 @@
   padding: 0;
   font-family: Poppins;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 /* Resetando a página */
 
@@ -292,6 +294,9 @@ footer{
 /*  Tamanho */
   background-color: #F2F0EB;
 /* Cor de fundo */
+width: 100%;
+/* Preencher 100% do tamanho */
+display: flex;
 }
 
 
@@ -338,7 +343,7 @@ footer ul li{
   /* Tamanho do texto */
 }
 
-#text{
+footer ul li span{
 color: #643DF2;     
 }
 
@@ -350,7 +355,9 @@ color: #643DF2;
 
 
       footer img{
-          width: 10rem;
+  margin-left: 7rem;
+          width: 16rem;
+          height: auto;
           display: flex;
           /* Tornando Flex */
           align-items: center;
@@ -359,6 +366,11 @@ color: #643DF2;
      /*  Justificando o conteúdo */
 
               }
+
+
+
+/* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
+
 
 
 

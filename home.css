@@ -54,6 +54,7 @@ z-index: 999;
 /*  Dando prioridade */
 width: 100%;
 /* Pra ocupar 100% do espaço */
+overflow: hidden; /* */
 }
 
 header img{
@@ -120,6 +121,10 @@ color: #643DF2;
 /* Cor do texto */
  }
 
+
+
+
+ 
 /* FIM DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 
 
@@ -169,7 +174,7 @@ color: #643DF2;
     .section2{
         background-color: #0D0D0D;
 /* Cor de fundo */
-        padding: min(45vh, 40rem);
+        padding: min(35vh, 30rem);
 /* Tamanho */
         width: 100%;
 /* Preencher 100% do tamanho*/
@@ -190,7 +195,7 @@ color: #643DF2;
 
 
 .h1-button h1{
-    font-size: 1.5rem;
+    font-size: 6rem;
 /* Tamanho do texto */
     margin-bottom: 30px;
     /*  Espaçamento na parte de baixo */
@@ -198,7 +203,7 @@ color: #643DF2;
 }
 
 .h1-button p{
-    font-size: 1rem;
+    font-size: 3rem;
 /* Tamanho do texto */
     margin-bottom: 30px;
 /*  Espaçamento na parte de baixo */
@@ -252,12 +257,104 @@ font-weight: 600;
 
 
 
+/* ESTILIZAÇÃO DA TERCEIRA SESSÃO */
+.section3{
+    background-color: #0D0D0D;
+/* Cor de fundo */
+    padding: min(10vh, 20rem);
+/* Tamanho */
+    width: 100%;
+/* Preencher 100% do tamanho*/
+    color: white;
+/* Cor do texto */
+}
+
+/* Caixa pai da sessão */
+.container-section3{
+    display: flex;
+    /* Tornando Flex */
+    align-items: center;
+    /* Alinhando item a centro */
+    gap: 100px;
+/* Espaçamento entre os itens */
+}
+
+
+
+.h1-button h1{
+font-size: 1.5rem;
+/* Tamanho do texto */
+margin-bottom: 30px;
+/*  Espaçamento na parte de baixo */
+text-align: center;
+}
+
+.h1-button p{
+font-size: 1rem;
+/* Tamanho do texto */
+margin-bottom: 30px;
+/*  Espaçamento na parte de baixo */
+}
+
+.h1-button p span{
+color: #987cff;
+/* Cor do texto */
+font-weight: 600;
+/* Peso da fonte */
+}
+
+
+.h1-button a button{
+padding: 8px;
+/*  Folga dentro do botão */
+text-align: center;
+/* Alinhando texto ao centro */
+width: 200px;
+/* Largura do botão */
+border-radius: 40px;
+/* Arredondamento do botão */
+background-color: #643DF2;
+/* Cor de fundo do botão */
+color: #F2F0EB;
+/* Cor do texto */
+border: 2px solid #987cff;
+/* Criando uma borda sólida com cor */
+cursor: pointer;
+/* Mudando o cursor */
+font-weight: 600;
+/* Peso da fonte */
+}
+
+.h1-button a button:hover{
+/* Hover para mudarmos algo ao passar o mouse por cima */
+background-color: #987cff;
+/* Cor do texto */
+transition: 0.5s;
+/*  Tempo de transição */
+color: #0D0D0D;
+/* Cor do texto */
+}
+
+/* Estilização da imagem */
+.img-section3{
+width: 80rem;
+height: auto;
+/* Tamanho da imagem */
+}
+
+
+
+
+
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
     footer{
         padding: min(6vh, 3rem);
 /*  Tamanho */
         background-color: #F2F0EB;
 /* Cor de fundo */
+width: 100%;
+/* Preencher 100% do tamanho */
+display: flex;
     }
     
 
@@ -316,7 +413,9 @@ color: #643DF2;
 
 
             footer img{
+        margin-left: 7rem;
                 width: 10rem;
+                height: auto;
                 display: flex;
                 /* Tornando Flex */
                 align-items: center;
