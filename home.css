@@ -183,17 +183,18 @@ color: #643DF2;
         /* Tornando Flex */
         align-items: center;
         /* Alinhando item a centro */
-        gap: 80px;
+        gap: 100px;
 /* Espaçamento entre os itens */
     }
 
 
 
 .h1-button h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
 /* Tamanho do texto */
     margin-bottom: 30px;
     /*  Espaçamento na parte de baixo */
+    text-align: center;
 }
 
 .h1-button p{
@@ -244,13 +245,10 @@ font-weight: 600;
 
 /* Estilização da imagem */
 .img-section2{
-    width: 400vw;
+    width: 250rem;
+    height: auto;
 /* Tamanho da imagem */
 }
-
-
-
-
 
 
 
@@ -331,3 +329,19 @@ color: #643DF2;
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
+
+
+
+@media (max-width: 834px){
+    
+ 
+
+
+
+
+    .section-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
