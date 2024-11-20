@@ -27,7 +27,8 @@
 
 html{
   width: 100%;
-  height: 100vh;  
+  height: 100vh;
+  font-size: 17.5px;  
 }
 /* Usando 100% de cada área do site */
 
@@ -102,7 +103,7 @@ header i{
 }
 
 .links a:hover {
-  text-decoration: overline 2px solid var(--purple);
+  text-decoration: underline 2px solid var(--purple);
   /* Texto */
 }
 
@@ -168,6 +169,13 @@ header{
   /* Cursor */
   position: relative;
   top: 225px;
+  /* Posicionamento */
+  transition: 0.60s ease;
+}
+
+.button button:hover{
+  transform: scale(1.1);
+  /* Aumentando escala do botão */
 }
 
 .button-purple button{
@@ -211,6 +219,7 @@ header{
 span{
   color: var(--green);
   /* Cores */
+  font-weight: 500;
 }
 
 .content{
@@ -229,22 +238,128 @@ span{
   /* Bordas */
 }
 
+.section02{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Posicionamento */
+  padding: 120px;
+  /* Espaçamento */
+}
+
+.text-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.box-text{
+  width: 300px;
+  height: 280px;
+  /* Largura e Altura */
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 4px;
+  /* Posicionamento */
+  border: 3px solid var(--purples);
+  border-radius: 8px;
+  /* Bordas */
+  padding: 10px;
+  /* Espaçamento */
+  box-shadow: 0 0 15px #643df24c;
+  /* Sombra neon */
+}
+
+.box-text p{
+  font-style: italic;
+  font-weight: 300;
+  /* Texto */
+}
+
+#color-text{
+  color: var(--green);
+  /* Cores */
+  font-weight: 500;
+  /* Texto */
+}
+
+/* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* Posicionamento */
-  background-color: var(--gray);
+  padding: min(6vh, 3rem);
+/*  Tamanho */
+  background-color: #F2F0EB;
+/* Cor de fundo */
 }
 
-.flexbox-footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 80px;
-  /* Posicionamento */
+
+footer i{
+  margin-top: 5px;
+color: #0D0D0D;
+/* Cor do texto */
 }
 
-.box-footer img{
-  width: 200px;
+footer i span{
+  margin-left: 5px;
+/* Espaçamento na esquerda */
+  font-weight: 800;
+  /* Peso da fonte */
 }
+
+
+.container-footer{
+display: flex;
+/* Tornando flex (deixando os itens na vertical) */
+gap: 50px;
+/*  Espaçamento entre os itens */
+}
+
+.itens-footer1{
+  display: flex;
+  /* Tornando Flex */
+  flex-direction: column;
+justify-content: center;
+  /*  Justificando o conteúdo */
+align-items: center;
+  /* Alinhando item a centro */
+font-size: 1.3rem;
+/* Tamanho do texto */
+}
+
+
+
+footer ul li{
+  color: #0D0D0D;
+  font-weight: 800;
+  /* Peso da fonte */
+  font-size: 1.2rem;
+  /* Tamanho do texto */
+}
+
+#text{
+color: #643DF2;     
+}
+
+      footer ul li:hover{
+          /* Hover para mudarmos algo ao passar o mouse por cima */
+          color: #643DF2; 
+          transition: 0.4s;  
+      }
+
+
+      footer img{
+          width: 10rem;
+          display: flex;
+          /* Tornando Flex */
+          align-items: center;
+          /* Alinhando item a centro */
+          justify-content: center;
+     /*  Justificando o conteúdo */
+
+              }
+
+
+
+/* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
