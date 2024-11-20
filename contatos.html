@@ -74,28 +74,63 @@
 
         </section>
 
-
+<!--Aqui chamamos nossa Section para adicionar informações (tags) à ele  -->
+ <!-- Damos um nome para a nossa Section a qual chamará "Form-Conteiner" -->
         <section class="section-3">
-            <h2>Contato</h2>
+         
+    <div class="container"> <!-- Abrimos uma Div para que possamos destacar nosso formulário  -->
 
-            <p>Como o Digital class pode ajuadar?</p>
-            
-            <div class="flex-box">
 
-                <div class="box-form">
+      <form method="get" action="cad.php"> <!-- Abrimos aqui nossa TAG de Formulário -->
 
-                    <div class="content-box">
-                        <label for="text">Nome</label>
-                        <input type="text" placeholder="Seu nome aqui" required>
-                    </div>
 
-                    <div class="content-box">
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="Seu email aqui">
-                    </div>
-                </div>
+        <h1>Contato</h1> <!-- Título para o nosso formulário -->
 
-            </div>
+
+        <p>Preencha o formulário abaixo e entraremos em contato com você</p> <!-- Pequena descrição usando a TAG de Paragráfo  -->
+
+
+        <div class="input-single"> <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa)  -->
+            <input type="text" class="input" autocomplete="off" required id="nome" name="nome"> <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe e desabilitamos a preenchimento automático -->
+
+            <label for="nome">Nome</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+        </div>
+
+
+        <div class="input-single"> <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+            <input type="email" class="input" autocomplete="off" required id="email" name="sobrenome"> <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe e desabilitamos a preenchimento automático -->
+            <label for="email">Email</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+        </div>
+
+
+        <div class="input-single"> <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+            <input type="number" class="input" autocomplete="off" required id="telefone" name="telefone"> <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe 
+                e desabilitamos a preenchimento automático -->
+            <label for="telefone">Telefone</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+        </div>
+
+        <div class="input-single"> <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+            <input type="text" class="input" autocomplete="off" required id="telefone" name="telefone"> <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe 
+                e desabilitamos a preenchimento automático -->
+            <label for="estado">Estado</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+        </div>
+
+        <div class="input-single"> <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+            <input type="text" class="input" autocomplete="off" required id="telefone" name="telefone"> <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe 
+                e desabilitamos a preenchimento automático -->
+            <label for="cidade">Cidade</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+        </div>
+
+
+        <div class="btn"> <!-- Aqui inserimos nosso Botão de Enviar -->
+            <input type="submit" value="Enviar"> <!-- Atribuimos um nome de classe para ele como "btn" Type Submit para botão e o Value que é o nome visível no submit-->
+        </div> 
+        
+
+
+      </form>
+    </div>
+
 
         </section>
 
