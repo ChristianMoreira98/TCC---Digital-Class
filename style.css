@@ -245,7 +245,6 @@ span{
   /* Posicionamento */
   padding: 120px;
   /* Espaçamento */
-  background-color: var(--purples);
 }
 
 .text-flex{
@@ -272,7 +271,6 @@ span{
   /* Espaçamento */
   box-shadow: 0 0 15px #643df24c;
   /* Sombra neon */
-  background-color: var(--grayb);
 }
 
 .box-text p{
