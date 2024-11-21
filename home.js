@@ -5,8 +5,6 @@ ScrollReveal().reveal('.section-1', {
     distance: '50px', // Diatância que o elemento "viaja" antes de aparecer
     });
 
-
-
 // Seleciona o elemento que contém todas as imagens do carrossel 
 const track = document.getElementById('itensCarrossel');
 
@@ -42,3 +40,19 @@ setInterval(moveCarousel, 1500);
 
 
 
+
+
+// Inicializando o efeito ScrollReveal no container da segunda sessão
+ScrollReveal().reveal('.container-section2', {
+    duration:1000, // Duração do efeito (em milisegundos), define a velocidade da transição
+    origin: 'bottom', // Origem do efeito: o conteúdo virá de baixo pra cima
+    distance: '50px', // Diatância que o elemento "viaja" antes de aparecer
+    });
+
+
+    // Inicializando o efeito ScrollReveal no container da terceira sessão
+ScrollReveal().reveal('.container-section3', {
+    duration:1000, // Duração do efeito (em milisegundos), define a velocidade da transição
+    origin: 'right', // Origem do efeito: o conteúdo virá de baixo pra cima
+    distance: '50px', // Diatância que o elemento "viaja" antes de aparecer
+    });

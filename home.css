@@ -167,7 +167,17 @@ color: #643DF2;
     display: block; /*Garante que não haja espaçamento abaixo das imagens*/
     }
 
+    #imagem3{
+        scroll-behavior: smooth;
+
+    }
+
+
+
+
 /*  FIM DA PRIMEIRA SESSÃO */
+
+
 
 
 /* ESTILIZAÇÃO DA SEGUNDA SESSÃO */
@@ -333,6 +343,12 @@ transition: 0.5s;
 /*  Tempo de transição */
 color: #0D0D0D;
 /* Cor do texto */
+}
+
+
+.span-section3{
+
+    color: #987cff;
 }
 
 /* Estilização da imagem */

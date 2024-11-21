@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Fonte */
+*{ 
+/* Definições fixas do site */
+    padding: 0;
+/* Zerando o padding */
+    margin: 0;
+/*  Zerando a margem */
+    box-sizing: border-box;
+/* Pra página não quebrar */
+    list-style: none;
+/* Tirando o estilo das listas */
+    text-decoration: none;
+/* Tirando o sub-linhado */
+    font-family: Poppins;
+/* Fonte da página */
+}
+
+body{
+   background-color: #0D0D0D;
+/* Cor de fundo da página */
+}
+
+html{
+/* Definições na raiz do html */
+    width: 100%;
+/* Para ocupar 100% da largura */
+    height: 100vh;
+/*  100vh para que a página tenha a mesma altura do navegador */
+}
+
+
+/* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
+header{
+    padding: min(4vh, 8rem);
+/*  Tamanho do cabeçalho */
+    background-color: #0D0D0D;
+/* Cor de fundo */
+    display: flex;
+/* Tornando Flex */
+    justify-content: space-between;
+/*  Justificando o conteúdo */
+    align-items: center;
+/* Alinhando itens ao centro */
+    text-align: center;
+/* Alinhando os textos ao centro */
+    position: sticky;
+/* Fixando o cabeçalho ao rolar a página */
+top: 0;
+/* Zerando a parte de cima */
+left: 0;
+/* Zerando a esquerda (Que é por onde o elemento aparece) */
+z-index: 999;
+/*  Dando prioridade */
+width: 100%;
+/* Pra ocupar 100% do espaço */
+overflow: hidden; /* */
+}
+
+header img{
+/* Estilização da logo */
+    width: 5rem;
+/* Tamanho */
+    display: flex;
+    /* Tornando Flex */
+    align-items: center;
+/* Alinhando item a centro */
+    justify-content: center;
+    /*  Justificando o conteúdo */
+}
+
+header a{
+    margin-right: 2vh;
+/*  Espaçento na esquerda */
+    color: #F2F2F2;
+/*  Cor do texto */
+    font-weight: 800;
+    /* Peso da fonte */
+
+}
+
+header a:hover{
+    border-bottom: 2.5px solid#643DF2;
+    /* Criando uma borda sólida com cor */
+    transition: 0.1s;
+/* Tempo de transição */
+}
+
+/* Estilização do boneco de login */
+.login{
+ width: 2rem;
+/* Largura da caixa */
+ height: 2rem;
+/* Altura da caixa*/
+ background-color: black;
+/* Cor de fundo da caixa */
+ border-radius: 50%;
+/*  Arredondamento do container */
+ border: solid 2px #F2F0EB;
+ display: flex;
+    /* Tornando Flex */
+ align-items: center;
+    /* Alinhando item a centro */
+ justify-content: center;
+    /*  Justificando o conteúdo */
+ padding: 20px;
+/* Respiro */
+}
+
+.login:hover{
+/* Hover para mudarmos algo ao passar o mouse por cima */
+    background-color:#F2F0EB ;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+ header i{
+font-size: 1.5rem;
+/* Tamanho */
+color: #643DF2;
+/* Cor do texto */
+ }
+
+
+
+
+ 
+/* FIM DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
+
+
+
+
+
+
+
+
+
+
+/* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
+footer{
+    padding: min(6vh, 3rem);
+/*  Tamanho */
+    background-color: #F2F0EB;
+/* Cor de fundo */
+width: 100%;
+/* Preencher 100% do tamanho */
+display: flex;
+}
+
+
+footer i{
+    margin-top: 5px;
+color: #0D0D0D;
+/* Cor do texto */
+}
+
+footer i span{
+    margin-left: 5px;
+/* Espaçamento na esquerda */
+    font-weight: 800;
+    /* Peso da fonte */
+}
+
+
+.container-footer{
+display: flex;
+/* Tornando flex (deixando os itens na vertical) */
+gap: 50px;
+/*  Espaçamento entre os itens */
+}
+
+.itens-footer1{
+    display: flex;
+    /* Tornando Flex */
+    flex-direction: column;
+ justify-content: center;
+    /*  Justificando o conteúdo */
+ align-items: center;
+    /* Alinhando item a centro */
+ font-size: 1.3rem;
+/* Tamanho do texto */
+}
+
+
+
+footer ul li{
+    color: #0D0D0D;
+    font-weight: 800;
+    /* Peso da fonte */
+    font-size: 1.2rem;
+    /* Tamanho do texto */
+}
+
+footer ul li span{
+color: #643DF2;     
+}
+
+        footer ul li:hover{
+            /* Hover para mudarmos algo ao passar o mouse por cima */
+            color: #643DF2; 
+            transition: 0.4s;  
+        }
+
+
+        footer img{
+    margin-left: 7rem;
+            width: 10rem;
+            height: auto;
+            display: flex;
+            /* Tornando Flex */
+            align-items: center;
+            /* Alinhando item a centro */
+            justify-content: center;
+       /*  Justificando o conteúdo */
+
+                }
+
+
+
+/* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
