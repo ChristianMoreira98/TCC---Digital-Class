@@ -32,7 +32,7 @@ html{
 
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 header{
-    padding: min(4vh, 8rem);
+    padding: min(2vh, 4rem);
 /*  Tamanho do cabeçalho */
     background-color: #0D0D0D;
 /* Cor de fundo */
@@ -54,6 +54,7 @@ z-index: 999;
 /*  Dando prioridade */
 width: 100%;
 /* Pra ocupar 100% do espaço */
+font-size: 1.3rem;
 }
 
 header img{

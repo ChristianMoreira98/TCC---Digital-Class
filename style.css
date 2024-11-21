@@ -50,9 +50,10 @@ body{
   background-color: var(--black);
   color: var(--white);
   /* Cores */
-  padding: min(4vh, 8rem);
+  padding: min(2vh, 4rem);
   /* Espaçamento */
   z-index: 999;
+  font-size: 1.3rem;
 }
 
 .image-header img{
