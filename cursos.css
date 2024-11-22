@@ -198,11 +198,13 @@ footer ul li {
 footer ul li span {
     color: #643DF2;
 }
+/* Dando cor a um texto específico */
 
 footer ul li:hover {
     /* Hover para mudarmos algo ao passar o mouse por cima */
     color: #643DF2;
     transition: 0.4s;
+/* Tempo de transição */
 }
 
 
@@ -243,6 +245,7 @@ footer img {
     justify-content: center;
     gap: 50px;
 }
+/* Div pai para alinhar os elementos */
 
 .sessão-1 h2 {
     font-size: 1, 7rem;
@@ -250,6 +253,7 @@ footer img {
     color: #F2F0EB;
     margin-bottom: 2rem;
 }
+/* Tamanho - Cor - Alinhamento do título */
 
 .sessão-1 p {
     font-size: 1, 4rem;
@@ -257,6 +261,7 @@ footer img {
     color: #F2F0EB;
     margin-bottom: 2rem;
 }
+/* Tamanho - Cor - Alinhamento do parágrafo */
 
 .sessão-1 h3 {
     display: flex;
@@ -267,6 +272,7 @@ footer img {
     font-size: 4rem;
     margin-bottom: 1rem;
 }
+/* Tamanho - Cor - Alinhamento do título */
 
 .sessão-1 h4 {
     display: flex;
@@ -277,6 +283,7 @@ footer img {
     font-weight: 500;
     margin-left: 10px;
 }
+/* Tamanho - Cor - Alinhamento do título */
 
 .sessão-1 .p-1 {
     display: flex;
@@ -285,7 +292,7 @@ footer img {
     margin-left: -80px;
 
 }
-
+/* Tamanho - Cor - Alinhamento do parágrafo */
 .sessão-1 h5 {
     display: flex;
     justify-content: right;
@@ -294,8 +301,8 @@ footer img {
     font-size: 6rem;
     font-weight: 500;
     margin-right: -15px;
-
 }
+/* Tamanho - Cor - Alinhamento do título */
 
 .sessão-1 .p-2 {
     display: flex;
@@ -303,3 +310,4 @@ footer img {
     align-items: right;
     margin-right: -90px;
 }
+/* Tamanho - Cor - Alinhamento do parágrafo */
