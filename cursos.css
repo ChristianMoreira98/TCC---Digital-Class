@@ -34,9 +34,15 @@ html {
 
 
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
+<<<<<<< HEAD
 header {
     padding: min(4vh, 8rem);
     /*  Tamanho do cabeçalho */
+=======
+header{
+    padding: min(2vh, 4rem);
+/*  Tamanho do cabeçalho */
+>>>>>>> 2830b72ef9952f2a47a6c5d111c9dffa3b11d5f1
     background-color: #0D0D0D;
     /* Cor de fundo */
     display: flex;

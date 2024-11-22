@@ -32,7 +32,7 @@ html{
 
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 header{
-    padding: min(4vh, 8rem);
+    padding: min(2vh, 4rem);
 /*  Tamanho do cabeçalho */
     background-color: #0D0D0D;
 /* Cor de fundo */
@@ -55,6 +55,7 @@ z-index: 999;
 width: 100%;
 /* Pra ocupar 100% do espaço */
 overflow: hidden; /* */
+font-size: 1.3rem;
 }
 
 header img{
@@ -87,11 +88,42 @@ header a:hover{
 }
 
 
+/* Estilização do boneco de login */
+.login {
+    width: 2rem;
+    /* Largura da caixa */
+    height: 2rem;
+    /* Altura da caixa*/
+    background-color: black;
+    /* Cor de fundo da caixa */
+    border-radius: 50%;
+    /*  Arredondamento do container */
+    border: solid 2px #F2F0EB;
+    display: flex;
+    /* Tornando Flex */
+    align-items: center;
+    /* Alinhando item a centro */
+    justify-content: center;
+    /*  Justificando o conteúdo */
+    padding: 20px;
+    /* Respiro */
+}
+
+.login:hover {
+    /* Hover para mudarmos algo ao passar o mouse por cima */
+    background-color: #F2F0EB;
+    transition: 0.8s;
+    cursor: pointer;
+}
 
 
 
-
-
+header i {
+    font-size: 1.5rem;
+    /* Tamanho */
+    color: #643DF2;
+    /* Cor do texto */
+}
 
 
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
