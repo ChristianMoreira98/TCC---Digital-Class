@@ -124,9 +124,11 @@ color: #643DF2;
 /* FIM DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 
 
+
+/*Aqui estamos estilizando nossa segunda(2) sessão */
   .section-2{
-background-color: #643DF2;
-padding: 120px;
+background-color: #643DF2; /*Cor dew fundo*/
+padding: 120px; /*Preenchimento da nossa sessão*/
 width: 100%;
   }
 
@@ -171,6 +173,7 @@ width: 100%;
  }
 
 
+ /* A estilização das parágrafos */
  .section-2 p{
     font-size: 15px;
     color: white;
@@ -281,11 +284,10 @@ form input[type=submit]{ /* Aqui estilizamos nosso Botão de enviar*/
     color: rgb(255, 255, 255); /* Cor da letra (Dentro do Botão) */
     cursor: pointer; /* Torna o botão em algo clicavel  */
 }
-
-
 .form-container {
     opacity: 90%;
 }
+/* Fim do nosso container (FORMULÁRIO) */
 
 
 
