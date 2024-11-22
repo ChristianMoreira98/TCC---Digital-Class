@@ -131,20 +131,22 @@ background-color: #643DF2; /*Cor dew fundo*/
 padding: 120px; /*Preenchimento da nossa sessão*/
 width: 100%;
   }
+/* Cor - tamanho - 100% de preenchimento da sessão */
 
  .section-2 h1{
     font-size: 2rem;
     text-align: center;
     color: #F2F0EB;
  }
+/* Alinhando, tamanho e cor do título */
 
  .section-2 .div-button{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-  
  }
+/* div pai para posicionar itens */
 
  .div-button button{
     height: 50px;
@@ -162,6 +164,7 @@ width: 100%;
     margin-top: 25px;
     margin-bottom: 10px;
  }
+/* Formatação do botão */
 
 
  .div-button button:hover{
@@ -171,7 +174,7 @@ width: 100%;
     cursor: pointer;
     transition: 0.9s;
  }
-
+/* Hover para mudar algo ao passar o mouse */
 
  /* A estilização das parágrafos */
  .section-2 p{
@@ -180,12 +183,16 @@ width: 100%;
     margin-top: 20px;
    
  }
+/* Fim da estilização da segunda sessão */
+
+
+/* Início da estilização da sessão 3 */
  .section-3{
     padding: 100px;
     background-color: #643DF2;
     text-align: center;
-
  }
+/* Tamanho e cor pra sessão */
 
 .flex-box{
     display: flex;
@@ -195,7 +202,7 @@ width: 100%;
     flex-direction: column;
     color: white;
 } 
-
+/* Uma div pai para posicionar os elementos */
 
 .box-form{
     display:flex ;
@@ -203,6 +210,8 @@ width: 100%;
     align-items: center;
     gap: 5rem;
 }
+/* Uma div pai para posicionar os elementos */
+
 
 
 
