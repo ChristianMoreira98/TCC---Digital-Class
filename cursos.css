@@ -28,8 +28,6 @@ html {
     /* Para ocupar 100% da largura */
     height: 100vh;
     /*  100vh para que a página tenha a mesma altura do navegador */
-    font-size: 16px;
-    /*definindo a base do rem*/
 }
 
 
@@ -150,7 +148,8 @@ header i {
 }
 /* Div pai para alinhar os elementos */
 
-.sessão-1 h2 {
+
+.sessão-1 h1 {
     font-size: 1,7rem;
     text-align: center;
     color: #F2F0EB;
@@ -158,18 +157,12 @@ header i {
 }
 /* Tamanho - Cor - Alinhamento do título */
 
-.sessão-1 p {
-    font-size: 1, 4rem;
-    text-align: center;
-    color: #F2F0EB;
-    margin-bottom: 2rem;
-}
-/* Tamanho - Cor - Alinhamento do parágrafo */
 
-.sessão-1 h3 {
+.sessão-1 h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: center;
     color: #bd00ff;
     font-weight: 600;
     font-size: 4rem;
@@ -177,215 +170,157 @@ header i {
 }
 /* Tamanho - Cor - Alinhamento do título */
 
-.sessão-1 h4 {
+
+.container-section1{
     display: flex;
-    justify-content: left;
-    align-items: left;
-    color: #bd00ff;
-    font-size: 6rem;
-    font-weight: 500;
-    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #F2F2F2;
+    gap: 80px;
+    margin-bottom: 30px;
 }
-/* Tamanho - Cor - Alinhamento do título */
 
-.sessão-1 .p-1 {
+.container-section1 p{
     display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-left: -80px;
-
+    align-items: center;
+    justify-content: center;
+    
 }
-/* Tamanho - Cor - Alinhamento do parágrafo */
-.sessão-1 h5 {
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    color: #bd00ff;
-    font-size: 6rem;
-    font-weight: 500;
-    margin-right: -15px;
+
+.p1{
+    font-size: 3rem;
+color: #bd00ff;
+font-weight: 600;}
+
+.p1-2{
+    font-size: 1.5rem;
 }
-/* Tamanho - Cor - Alinhamento do título */
-
-.sessão-1 .p-2 {
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    margin-right: -90px;
-}
-/* Tamanho - Cor - Alinhamento do parágrafo */
 
 
-/*FIM DA ESTILIZAÇÃO DA SESSÃO-1*/
 
 .sessão-2{
-    background: linear-gradient(180deg, #000000 40%, rgba(255, 0, 255, 0.8)/* Rosa neon com 80% de opacidade */
-    );
+padding: min(15vh, 10rem);
+background-color:  #987cff;
+color: #2F3240;
 }
-/*cor de fundo da sessão 2*/
 
-.flex-box2{
+.sessão-2 h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
-}
-/* Div pai para alinhar os elementos */
-
-.sessão-2 .new-class{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-weight: 600;
     font-size: 4rem;
-    margin-top: 6rem;
-    margin-bottom: 5rem;
+    color: #2F3240;
+    margin-bottom: 3rem;
 }
-/* Tamanho - Cor - Alinhamento do título */
 
-.sessão-2 .new-class2{
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    color: #ffffff;
-    font-size: 3rem;
-    font-weight: 500;
-    margin-left: 10px;
+.container-section2{
+display: flex;
+align-items: center;
+justify-content: center;
 }
-/* Tamanho - Cor - Alinhamento do título */
-
-.sessão-2 .new-class5{
-    text-align: center;
-    color: #ffffff;
-    font-size: 3rem;
-    font-weight: 500;
-    margin-left: 10px;
+.p2{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 3rem;
+color: #2b04bb;
 }
-/* Tamanho - Cor - Alinhamento do título */
 
-.sessão-2 .p-3{
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    color: #ffffff;
-}
-/* Tamanho - Cor - Alinhamento do título */
 
-.sessão-2 .p-6{
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 5rem;
-}
-/* Tamanho - Cor - Alinhamento do título */
-
-.sessão-2 .new-class3{
+.p2-2{
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
-    font-size: 3rem;
-    font-weight: 500;
 }
-/* Tamanho - Cor - Alinhamento do título */
 
-.sessão-2 .p-4{
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    color: #ffffff;
-    margin-bottom: 5rem;
-}
-/* Tamanho - Cor - Alinhamento do título */
-.sessão-2 .new-class4{
-    display: flex;
-    justify-content: center;
-    align-items: right;
-    color: #ffffff;
-    font-size: 3rem;
-    font-weight: 500;
-    
-}
-/* Tamanho - Cor - Alinhamento do título */
-
-.sessão-2 .p-5{
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    color: #ffffff;
-    margin-bottom: 5rem;
-}
-/* Tamanho - Cor - Alinhamento do título */
-
-
-/*FIM DA ESTILIZAÇÃO DA SESSÃO-2*/
-
-h5
 .sessão-3{
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-evenly;
-    gap: 50px;
-    flex-direction: column;
+    padding: min(15vh, 10rem);
+background-color:  #0D0D0D;
+
 }
 
-
-.flex-box3{
+.sessão-3 h4{
     display: flex;
-}
-
-.sessão-3 .class-new{
-     text-align: center;
-    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-weight: 600;
     font-size: 4rem;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    color: #2b04bb;
+    margin-bottom: 3rem;
 }
 
-.sessão-3 .class-new2{
-    
+.container-section3{
     display: flex;
-    justify-content: left;
     align-items: center;
-    color: #ffffff;
-    font-size: 3rem;
-    font-weight: 500;
-    margin-left: 170px;
-    
-}
-
-.sessão-3 .class-new4{
-    
+    justify-content: center;
+    }
+    .p3{
     display: flex;
-    justify-content: left;
     align-items: center;
-    color: #ffffff;
+    justify-content: center;
+    text-align: center;
     font-size: 3rem;
-    font-weight: 500;
-    margin-left: 170px;
+    color: #2b04bb;
+    }
     
-}
+    
+    .p3-3{
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #F2F0EB;
+    }
+    
 
-.sessão-3 .p-new{
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    color: #ffffff;
-    margin-left: 150px;
-}
+    .sessão-4{
+        padding: min(25vh, 20rem);
+        background-color:  #0D0D0D;
+        
+        }
 
-/*QUASE PRONTO*/
+        .sessão-4 h5{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #F2F2F2;
+            font-size: 3rem;
+        }
 
 
 
+        .sessão-4 a button{
+            padding: 8px;
+            /*  Folga dentro do botão */
+            text-align: center;
+            /* Alinhando texto ao centro */
+            width: 200px;
+            /* Largura do botão */
+            border-radius: 40px;
+            /* Arredondamento do botão */
+            background-color: #643DF2;
+            /* Cor de fundo do botão */
+            color: #F2F0EB;
+            /* Cor do texto */
+            border: 2px solid #987cff;
+            /* Criando uma borda sólida com cor */
+            cursor: pointer;
+            /* Mudando o cursor */
+            font-weight: 600;
+            /* Peso da fonte */
+        }
 
-
-
+ .sessão-4 button:hover {
+            /* Hover para mudarmos algo ao passar o mouse por cima */
+            background-color: #987cff;
+            /* Cor do texto */
+            transition: 0.5s;
+            /*  Tempo de transição */
+            color: #0D0D0D;
+            /* Cor do texto */
+        }
+        
 
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 footer {

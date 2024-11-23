@@ -319,12 +319,7 @@ img {
     /*  Espaçamento na parte de baixo */
 }
 
-.h1-button p span {
-    color: #987cff;
-    /* Cor do texto */
-    font-weight: 600;
-    /* Peso da fonte */
-}
+
 
 
 .h1-button a button {
@@ -359,10 +354,6 @@ img {
 }
 
 
-.span-section3 {
-
-    color: #987cff;
-}
 
 /* Estilização da imagem */
 .img-section3 {
@@ -371,7 +362,10 @@ img {
     /* Tamanho da imagem */
 }
 
-
+.section3 span{
+    color: #643DF2;
+    margin-left: 5px;
+}
 
 
 
