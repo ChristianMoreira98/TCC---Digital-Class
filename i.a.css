@@ -159,6 +159,7 @@ header a:hover{
 .container-section2{
     display: flex;
     align-items: center;
+    
     justify-content: center;
 }
 
