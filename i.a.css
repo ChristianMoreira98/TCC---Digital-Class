@@ -118,6 +118,52 @@ header a:hover{
 
 
 
+.sessão-1{
+    padding: min(15vh, 10rem);
+    background-color:  #0D0D0D;
+    width: 100%;
+}
+
+
+.container-section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-section1 h1{
+    font-size: 2.5rem;
+    color: #F2F0EB;
+    margin-bottom: 10px;
+}
+
+.container-section1 img{
+    width: 32rem;
+}
+
+.itens-section1 p{
+    color: #F2F0EB;
+}
+
+.itens-section1 p span{
+    color: #643DF2;
+}
+
+.sessão-2{
+    padding: min(15vh, 10rem);
+    background-color:  #0D0D0D;
+    width: 100%;
+}
+
+.container-section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-section2 
+
 header i {
     font-size: 1.5rem;
     /* Tamanho */

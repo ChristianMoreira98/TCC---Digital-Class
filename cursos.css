@@ -277,7 +277,16 @@ background-color:  #0D0D0D;
     .sessão-4{
         padding: min(25vh, 20rem);
         background-color:  #0D0D0D;
-        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        }
+
+
+        .sessão-4 img{
+width: 33rem;
+margin-bottom: 10px;
         }
 
         .sessão-4 h5{
@@ -286,6 +295,7 @@ background-color:  #0D0D0D;
             justify-content: center;
             color: #F2F2F2;
             font-size: 3rem;
+            margin-bottom: 10px;
         }
 
 
