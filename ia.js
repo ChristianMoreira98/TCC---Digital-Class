@@ -1,21 +1,34 @@
-const apiKey = 'SUA_CHAVE_API';
-const url = 'https://api.openai.com/v1/chat/completions';
+const apiKey = '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';
 
-async function fetchAIResponse(message) {
-  const response = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${apiKey}`,
-      'Content-Type': 'application/json'
+
+
+
+
+
+
+
+
+
+function sendMessage(msg) {
+
+  const apiURL = "https://api.openai.com/v1/chat/completions "
+
+  const options = {
+    method:'POST', 
+    headers:{
+      "Authorization": `Bearer$(apiKey)`, 
+      "Content-Type": "applicacation/json"
     },
-    body: JSON.stringify({
-      model: 'gpt-4',
-      messages: [{ role: 'user', content: message }],
-    })
-  });
-  const data = await response.json();
-  return data.choices[0].message.content;
+ 
+    body:{model:"gpt-3.5-turbo", messages:[
+      
+    ]}
+
+
+
+    const response = await fetch(apiURL, options)
+  }
+
+ 
 }
 
-// Exemplo de uso
-fetchAIResponse('Olá, IA!').then(response => console.log(response));
