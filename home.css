@@ -463,20 +463,64 @@ footer img {
 @media (max-width: 900px) {
 
 
-    .section2{
-        padding: 12rem;
-        
+    header{
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.8rem;
     }
 
+    .section1{
+        padding: 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .section2{
+        padding: 10rem;
+        display: flex;
+        align-items: center;
+
+    }
+
+
+    .container-section2 img{
+width: 23rem;
+
+
+    }
     .container-section2{
         display: flex;
-        flex-direction: column;
+      flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         text-align: center;
         width: 5rem;
     }
 
+    .h1-button p{
+        text-align: center;
+        font-size: 1rem;
+    
+    }
 
 
+    .section3{
+        padding: 5rem;
+        
+    }
+
+    
+
+    footer{
+        padding: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }

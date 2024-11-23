@@ -54,6 +54,7 @@ body{
   /* Espaçamento */
   z-index: 999;
   font-size: 1.3rem;
+  width: 100%;
 }
 
 .image-header img{
@@ -144,6 +145,7 @@ header{
   /* Bordas */
   margin: 15px;
   /* Margens */
+  width: 100%;
 }
 
 .whatsapp{
