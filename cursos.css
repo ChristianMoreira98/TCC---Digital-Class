@@ -126,104 +126,7 @@ header i {
 }
 
 
-
-
-
 /* FIM DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
-
-
-
-
-
-
-
-
-
-
-/* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
-footer {
-    padding: min(6vh, 3rem);
-    /*  Tamanho */
-    background-color: #F2F0EB;
-    /* Cor de fundo */
-    width: 100%;
-    /* Preencher 100% do tamanho */
-    display: flex;
-}
-
-
-footer i {
-    margin-top: 5px;
-    color: #0D0D0D;
-    /* Cor do texto */
-}
-
-footer i span {
-    margin-left: 5px;
-    /* Espaçamento na esquerda */
-    font-weight: 800;
-    /* Peso da fonte */
-}
-
-
-.container-footer {
-    display: flex;
-    /* Tornando flex (deixando os itens na vertical) */
-    gap: 50px;
-    /*  Espaçamento entre os itens */
-}
-
-.itens-footer1 {
-    display: flex;
-    /* Tornando Flex */
-    flex-direction: column;
-    justify-content: center;
-    /*  Justificando o conteúdo */
-    align-items: center;
-    /* Alinhando item a centro */
-    font-size: 1.3rem;
-    /* Tamanho do texto */
-}
-
-
-
-footer ul li {
-    color: #0D0D0D;
-    font-weight: 800;
-    /* Peso da fonte */
-    font-size: 1.2rem;
-    /* Tamanho do texto */
-}
-
-footer ul li span {
-    color: #643DF2;
-}
-/* Dando cor a um texto específico */
-
-footer ul li:hover {
-    /* Hover para mudarmos algo ao passar o mouse por cima */
-    color: #643DF2;
-    transition: 0.4s;
-/* Tempo de transição */
-}
-
-
-footer img {
-    margin-left: 7rem;
-    width: 10rem;
-    height: auto;
-    display: flex;
-    /* Tornando Flex */
-    align-items: center;
-    /* Alinhando item a centro */
-    justify-content: center;
-    /*  Justificando o conteúdo */
-
-}
-
-
-
-/* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
 
 
@@ -418,13 +321,18 @@ footer img {
 
 /*FIM DA ESTILIZAÇÃO DA SESSÃO-2*/
 
-
+h5
 .sessão-3{
     display: flex;
     /* align-items: center; */
     justify-content: space-evenly;
     gap: 50px;
     flex-direction: column;
+}
+
+
+.flex-box3{
+    display: flex;
 }
 
 .sessão-3 .class-new{
@@ -472,3 +380,97 @@ footer img {
 }
 
 /*QUASE PRONTO*/
+
+
+
+
+
+
+
+/* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
+footer {
+    padding: min(6vh, 3rem);
+    /*  Tamanho */
+    background-color: #F2F0EB;
+    /* Cor de fundo */
+    width: 100%;
+    /* Preencher 100% do tamanho */
+    display: flex;
+}
+
+
+footer i {
+    margin-top: 5px;
+    color: #0D0D0D;
+    /* Cor do texto */
+}
+
+footer i span {
+    margin-left: 5px;
+    /* Espaçamento na esquerda */
+    font-weight: 800;
+    /* Peso da fonte */
+}
+
+
+.container-footer {
+    display: flex;
+    /* Tornando flex (deixando os itens na vertical) */
+    gap: 50px;
+    /*  Espaçamento entre os itens */
+}
+
+.itens-footer1 {
+    display: flex;
+    /* Tornando Flex */
+    flex-direction: column;
+    justify-content: center;
+    /*  Justificando o conteúdo */
+    align-items: center;
+    /* Alinhando item a centro */
+    font-size: 1.3rem;
+    /* Tamanho do texto */
+}
+
+
+
+footer ul li {
+    color: #0D0D0D;
+    font-weight: 800;
+    /* Peso da fonte */
+    font-size: 1.2rem;
+    /* Tamanho do texto */
+}
+
+footer ul li span {
+    color: #643DF2;
+}
+/* Dando cor a um texto específico */
+
+footer ul li:hover {
+    /* Hover para mudarmos algo ao passar o mouse por cima */
+    color: #643DF2;
+    transition: 0.4s;
+/* Tempo de transição */
+}
+
+
+footer img {
+    margin-left: 7rem;
+    width: 10rem;
+    height: auto;
+    display: flex;
+    /* Tornando Flex */
+    align-items: center;
+    /* Alinhando item a centro */
+    justify-content: center;
+    /*  Justificando o conteúdo */
+
+}
+
+
+
+/* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
+
+
+
