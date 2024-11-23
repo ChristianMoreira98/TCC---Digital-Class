@@ -117,6 +117,12 @@ header a:hover{
 }
 
 
+header i {
+    font-size: 1.5rem;
+    /* Tamanho */
+    color: #643DF2;
+    /* Cor do texto */
+}
 
 .sessão-1{
     padding: min(15vh, 10rem);
@@ -144,6 +150,7 @@ header a:hover{
 
 .itens-section1 p{
     color: #F2F0EB;
+    font-size: 1rem;
 }
 
 .itens-section1 p span{
@@ -159,11 +166,24 @@ header a:hover{
 .container-section2{
     display: flex;
     align-items: center;
-    
     justify-content: center;
+    gap: 30px;
 }
 
-.container-section2 
+.container-section2 img{
+width: 32rem;
+}
+
+.sessão-2 h2{
+font-size: 2.5rem;
+color: #F2F0EB;
+}
+
+
+.sessão-2 p{
+    font-size: 1rem;
+    color: #F2F0EB;
+    }
 
 header i {
     font-size: 1.5rem;
