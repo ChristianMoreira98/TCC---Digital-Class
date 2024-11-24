@@ -55,6 +55,7 @@ body{
   z-index: 999;
   font-size: 1.3rem;
   width: 100%;
+  box-shadow: 0px 2px 2px rgb(255, 255, 255);
 }
 
 /* Menu Mobile */
@@ -93,32 +94,6 @@ body{
   /* Posicionamento */
 }
 
-header i{
-  font-size: 1.5rem;
-  color: #643DF2;
-   }
-   
-
-.login{
-  width: 2rem;
-  height: 2rem;
-  background-color: black;
-  border-radius: 50%;
-  border: solid 2px #F2F0EB;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
- }
- 
- .login:hover{
-     background-color:#F2F0EB ;
-     color: black;
-     transition: 0.8s;
-     cursor: pointer;
- }
- 
- 
 
 .links a{
   color: var(--cream);
@@ -432,10 +407,7 @@ color: #643DF2;
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
 @media (max-width: 420px) {
-  .login {
-    display: none;
-  }
-
+ 
   .links {
     display: none;
   }

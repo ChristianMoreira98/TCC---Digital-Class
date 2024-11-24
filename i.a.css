@@ -1,21 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Fonte */
-*{ 
-/* Definições fixas do site */
-    padding: 0;
-/* Zerando o padding */
-    margin: 0;
-/*  Zerando a margem */
-    box-sizing: border-box;
-/* Pra página não quebrar */
-    list-style: none;
-/* Tirando o estilo das listas */
-    text-decoration: none;
-/* Tirando o sub-linhado */
-    font-family: Poppins;
-/* Fonte da página */
-}
 
+:root{
+  --bluew: #91D7F2;
+  --cream: #F2F0EB;
+  --white: #F2F2F2;
+  --gray: #2F3240;
+  --grayb: #1d1d1d;
+  --black: #0D0D0D;
+  --purple: #987cff;
+  --purples: #643DF2;
+  --red: #F20519;
+  --yellow: #F2CB05;
+  --green: #55D976;
+  --greenb: #027313;
+}
+/* Paleta de cores */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+/* Resetando a página */
 body{
    background-color: #0D0D0D;
 /* Cor de fundo da página */
@@ -55,6 +65,7 @@ z-index: 999;
 width: 100%;
 /* Pra ocupar 100% do espaço */
 overflow: hidden; /* */
+box-shadow: 0px 2px 2px rgb(255, 255, 255);
 font-size: 1.3rem;
 }
 
@@ -88,41 +99,41 @@ header a:hover{
 }
 
 
-/* Estilização do boneco de login */
-.login {
-    width: 2rem;
-    /* Largura da caixa */
-    height: 2rem;
-    /* Altura da caixa*/
-    background-color: black;
-    /* Cor de fundo da caixa */
-    border-radius: 50%;
-    /*  Arredondamento do container */
-    border: solid 2px #F2F0EB;
-    display: flex;
-    /* Tornando Flex */
-    align-items: center;
-    /* Alinhando item a centro */
-    justify-content: center;
-    /*  Justificando o conteúdo */
-    padding: 20px;
-    /* Respiro */
-}
-
-.login:hover {
-    /* Hover para mudarmos algo ao passar o mouse por cima */
-    background-color: #F2F0EB;
-    transition: 0.8s;
-    cursor: pointer;
-}
-
-
 header i {
     font-size: 1.5rem;
     /* Tamanho */
     color: #643DF2;
     /* Cor do texto */
 }
+
+
+/* Menu Mobile */
+
+.mobile-menu-icon button{
+    background-color: var(--grayb);
+    border: none;
+    padding: 7px;
+    color: var(--white);
+    border-radius: 8px;
+  }
+  
+  .mobile-menu-icon i {
+    font-size: 16px;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  /* Fim do Mobile Menu */
+  
+
+
+/* FIM DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 
 .sessão-1{
     padding: min(15vh, 10rem);
@@ -158,7 +169,7 @@ header i {
 }
 
 .sessão-2{
-    padding: min(15vh, 10rem);
+    padding: min(10vh, 10rem);
     background-color:  #0D0D0D;
     width: 100%;
 }
@@ -174,6 +185,15 @@ header i {
 width: 32rem;
 }
 
+.container-section2 span{
+    color: #643DF2;
+}
+
+.itens-section2{
+display: flex;
+flex-wrap: wrap;
+}
+
 .sessão-2 h2{
 font-size: 2.5rem;
 color: #F2F0EB;
@@ -185,6 +205,7 @@ color: #F2F0EB;
     color: #F2F0EB;
     }
 
+    
 header i {
     font-size: 1.5rem;
     /* Tamanho */
@@ -275,3 +296,5 @@ color: #643DF2;
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
+
+
