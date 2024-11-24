@@ -59,67 +59,24 @@ body{
 
 /* Menu Mobile */
 
-.btn-abrir-menu i{
-  color: var(--cream);
-  font-size: 35px;
+.mobile-menu-icon button{
+  background-color: var(--grayb);
+  border: none;
+  padding: 7px;
+  color: var(--white);
+  border-radius: 8px;
+}
+
+.mobile-menu-icon i {
+  font-size: 16px;
+}
+
+.mobile-menu-icon {
+  display: none;
 }
 
 .mobile-menu {
-  cursor: pointer;
-  background-color: var(--purples);
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 999999;
-  width: 50%;
-  overflow: hidden;
-}
-
-.mobile-menu .btn-fechar {
-  padding: 22px 4%;
-}
-
-.mobile-menu .btn-fechar i {
-  color: var(--cream);
-  font-size: 30px;
-}
-
-.mobile-menu nav ul li {
-  text-align: right;
-}
-
-.mobile-menu nav ul li a {
-  color: var(--white);
-  font-size: 20px;
-  font-weight: 300;
-  padding: 20px 8%;
-  display: block;
-}
-
-.mobile-menu nav ul li a:hover {
-  background-color: var(--purple);
-  border-radius: 15px;
-}
-
-.overlay-menu {
-  background-color: var(--black);
-  width: 100%;
-  height: 100%;
-  opacity: 15%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 888888;
-}
-
-
-
-@media (max-width: 420px) {
-  body {
-    overflow-x: hidden;
-  }
-
+  display: none;
 }
 
 /* Fim do Mobile Menu */
@@ -466,7 +423,38 @@ color: #643DF2;
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
+.open {
+  display: flex;
+}
 
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
+
+@media (max-width: 420px) {
+  .login {
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
+  
+  .mobile-menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu a {
+    color: white;
+    background-color: var(--grayb);
+    border-radius: 5px;
+  }
+}

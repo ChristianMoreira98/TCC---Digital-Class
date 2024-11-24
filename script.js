@@ -13,12 +13,15 @@ ScrollReveal().reveal("#imageThree", {
 
 // Menu Mobile
 
-let btnMenu = document.getElementById('btn-menu');
-let menu = document.getElementById('mobile-menu');
-
-btnMenu.addEventListener('click', ()=>{
-    menu.classList.add('abrir-menu')
-})
+function menuShow() {
+    let menuMobile = document.querySelector('.mobile-menu');
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+    } else {
+        menuMobile.classList.add('open');
+        
+    }
+}
 
 // Texto animado
 
