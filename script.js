@@ -11,6 +11,15 @@ ScrollReveal().reveal("#imageThree", {
     duration: 2000,
 });
 
+// Menu Mobile
+
+let btnMenu = document.getElementById('btn-menu');
+let menu = document.getElementById('mobile-menu');
+
+btnMenu.addEventListener('click', ()=>{
+    menu.classList.add('abrir-menu')
+})
+
 // Texto animado
 
 // const typed = new Typed('#textAnimation', {
