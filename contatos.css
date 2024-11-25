@@ -106,27 +106,50 @@ header i {
     color: #643DF2;
     /* Cor do texto */
 }
+.mobile-menu-icon button{
+    background-color: var(--grayb);
+    border: none;
+    padding: 7px;
+    color: var(--white);
+    border-radius: 8px;
+  }
+  
+  .mobile-menu-icon i {
+    font-size: 16px;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+.open {
+    display: flex;
+  }
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 
 
 /*Aqui estamos estilizando nossa segunda(2) sessão */
-  .section-2{
+  .section-1{
 background-color: #643DF2; /*Cor dew fundo*/
 padding: 120px; /*Preenchimento da nossa sessão*/
 width: 100%;
   }
 /* Cor - tamanho - 100% de preenchimento da sessão */
 
- .section-2 h1{
+ .section-1 h1{
     font-size: 2rem;
     text-align: center;
     color: #F2F0EB;
  }
 /* Alinhando, tamanho e cor do título */
 
- .section-2 .div-button{
+ .section-1 .div-button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +186,7 @@ width: 100%;
 /* Hover para mudar algo ao passar o mouse */
 
  /* A estilização das parágrafos */
- .section-2 p{
+ .section-1 p{
     font-size: 1.5rem;
     color: white;
     margin-top: 20px;
@@ -173,7 +196,7 @@ width: 100%;
 
 
 /* Início da estilização da sessão 3 */
- .section-3{
+ .section-2{
     padding: 100px;
     background-color: #643DF2;
     text-align: center;
@@ -381,3 +404,100 @@ color: #643DF2;
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
+@media (max-width: 830px) {
+
+
+    header{
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 1.5rem;
+        gap: 30px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .section-1{
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .div-button{
+       display: flex; 
+       flex-wrap: wrap;
+
+    }
+
+
+.section-2{
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 20rem;
+    height: auto;
+}
+
+
+    footer{
+        padding: 4rem;
+        display: flex;
+  flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+
+footer .páginas {
+    display: none;
+}
+
+
+.container-footer{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
+footer img{
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+@media (max-width: 420px) {
+ 
+    ul {
+      display: none;
+
+    }
+    
+    .mobile-menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  
+    .mobile-menu a {
+      color: white;
+      background-color: var(--grayb);
+      border-radius: 5px;
+    }
+  }
