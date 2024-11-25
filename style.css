@@ -64,13 +64,13 @@ body{
 .mobile-menu-icon button{
   background-color: var(--grayb);
   border: none;
-  padding: 7px;
+  padding: 9px;
   color: var(--white);
   border-radius: 8px;
 }
 
 .mobile-menu-icon i {
-  font-size: 16px;
+  font-size: 30px;
 }
 
 .mobile-menu-icon {
@@ -126,6 +126,10 @@ h1{
   /* Alinhando texto ao centro */
 }
 
+.header-mobile {
+  display: none;
+}
+
 
 /* Aqui é a estilização do nosso header */
 header{
@@ -139,26 +143,30 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   /* Plano de fundo header */
-  padding: 250px;
+  padding: 300px;
   /* Espaçamento */
-  border-radius: 12px;
+  border-radius: 0;
   /* Bordas */
-  margin: 15px;
-  /* Margens */
-  width: 100%;
 }
 
 .whatsapp{
   position: relative;
+  z-index: 9999999;
 }
 
 .whatsapp img{
-  width: 100px;
+  width: 115px;
   /* Altura e Largura */
   position: fixed;
   bottom: 20px;
   right: 25px;
   /* Posicionamento do logo do WhatsApp */
+  transition: 00.50s ease;
+  cursor: pointer;
+}
+
+.whatsapp img:hover {
+  transform: scale(1.1);
 }
 
 .button button{
@@ -360,11 +368,11 @@ width: 10rem;
   display: flex;
   /* Tornando Flex */
   flex-direction: column;
-justify-content: center;
+  justify-content: center;
   /*  Justificando o conteúdo */
-align-items: center;
+  align-items: center;
   /* Alinhando item a centro */
-font-size: 1.3rem;
+  font-size: 1.3rem;
 /* Tamanho do texto */
 }
 
@@ -390,8 +398,7 @@ color: #643DF2;
 
 
       footer img{
-  margin-left: 7rem;
-          width: 16rem;
+          width: 10rem;
           height: auto;
           display: flex;
           /* Tornando Flex */
@@ -410,11 +417,48 @@ color: #643DF2;
   display: flex;
 }
 
+/* Mobile */
+
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
-@media (max-width: 420px) {
+@media (max-width: 765px) {
+
+  .whatsapp img {
+    width: 100px;
+    transition: 00.50s ease;
+  }
+
+  .whatsapp img:hover {
+    transform: scale(1.1);
+  }
+
+  .div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .header-mobile img {
+    width: 100%;
+  }
+
+  header {
+    display: none;
+  }
+
+  header button {
+    display: none;
+  }
  
   .links {
     display: none;
@@ -436,5 +480,186 @@ color: #643DF2;
     color: white;
     background-color: var(--grayb);
     border-radius: 5px;
+    transition: 1s ease;
+  }
+
+  .mobile-menu a:hover {
+    background-color: var(--purples);
+  }
+
+  .section01 {
+    padding: 10%;
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .content {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .content img {
+    width: 50%;
+  }
+
+  .text-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .flex-s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .texts3 {
+    width: 100%;
+  }
+
+  .container-footer {
+   display: none;
+  }
+
+  footer {
+    text-align: center;
+    border-radius: 25px;
   }
 }
+
+  @media (min-width:765px) and (max-width: 1200px) {
+
+    .header-mobile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .header-mobile img {
+      width: 100%;
+    }
+  
+    header {
+      display: none;
+    }
+  
+    header button {
+      display: none;
+    }
+   
+    .links {
+      display: none;
+    }
+    
+    .mobile-menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  
+    .mobile-menu a {
+      color: white;
+      background-color: var(--grayb);
+      border-radius: 5px;
+      transition: 1s ease;
+    }
+  
+    .mobile-menu a:hover {
+      background-color: var(--purples);
+    }
+  
+    .section01 {
+      padding: 10%;
+    }
+  
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .text2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .content {
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .text-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    
+    .section03 {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      gap: 0;
+    }
+
+    .flex-s3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 1px;
+    }
+  
+    .texts3 {
+      width: 100%;
+    }
+  
+    .container-footer {
+     display: none;
+    }
+  
+    footer {
+      text-align: center;
+      border-radius: 25px;
+    }
+  }
