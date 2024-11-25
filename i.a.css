@@ -65,7 +65,7 @@ z-index: 999;
 /*  Dando prioridade */
 width: 100%;
 /* Pra ocupar 100% do espaço */
-overflow: hidden; /* */
+overflow-x: hidden; /* */
 box-shadow: 0px 2px 2px rgb(255, 255, 255);
 font-size: 1.3rem;
 }
@@ -294,3 +294,61 @@ footer img {
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
+
+
+
+@media (max-width: 834px){
+
+.sessão-1{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sessão-1 p{
+font-size: 1.5rem;
+}
+
+
+.container-section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+.container-section1 img{
+    width: 20rem;
+}
+
+
+
+
+.sessão-2{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.sessão-2 p{
+    font-size: 1.5rem;
+    }
+    
+
+.container-section2 img{
+    width: 20rem;
+}
+
+}
