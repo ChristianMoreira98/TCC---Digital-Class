@@ -421,8 +421,34 @@ footer img {
 }
 
 
+.open {
+    display: flex;
+  }
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
 
-
+@media (max-width: 420px) {
+ 
+     header ul{
+      display: none;
+    }
+    
+    .mobile-menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  
+    .mobile-menu a {
+      color: white;
+      background-color: var(--grayb);
+      border-radius: 5px;
+    }
+  }

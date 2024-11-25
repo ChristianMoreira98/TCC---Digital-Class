@@ -51,4 +51,12 @@ ScrollReveal().reveal('.sessão-1', {
                 distance: '50px', // Diatância que o elemento "viaja" antes de aparecer
                 });
                 
-                
+                function menuShow() {
+                    let menuMobile = document.querySelector('.mobile-menu');
+                    if (menuMobile.classList.contains('open')) {
+                        menuMobile.classList.remove('open');
+                    } else {
+                        menuMobile.classList.add('open');
+                        
+                    }
+                }

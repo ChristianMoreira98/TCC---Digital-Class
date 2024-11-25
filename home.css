@@ -457,7 +457,7 @@ footer img {
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 830px) {
 
 
     header{
@@ -466,7 +466,8 @@ footer img {
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 1.5rem;
+        gap: 30px;
     }
 
     .section1{
@@ -475,6 +476,15 @@ footer img {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .container-carrossel{
+        width: 100%;
+        /*O container ocupa toda a largura da página*/
+        max-width: 100vw;
+        /* O container ocupa no máximo 80% da largura da viewport */
+        margin: auto;
+        /*Centraliza o container*/
     }
 
 
@@ -508,10 +518,29 @@ width: 23rem;
 
 
     .section3{
-        padding: 5rem;
+        padding: 10rem;
         
     }
 
+    .container-section3{
+        display: flex;
+        align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+    }
+
+    .container-section3 img{
+        width: 23rem;
+    }
+
+    .container-section3 .h1-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+        
+    
     
 
     footer{
@@ -519,7 +548,6 @@ width: 23rem;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
     }
 }
-
-
