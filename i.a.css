@@ -37,6 +37,7 @@ html{
 /* Para ocupar 100% da largura */
     height: 100vh;
 /*  100vh para que a página tenha a mesma altura do navegador */
+overflow-x: hidden;
 }
 
 
@@ -80,188 +81,186 @@ header img{
     justify-content: center;
     /*  Justificando o conteúdo */
 }
-
-header a{
-    margin-right: 2vh;
-/*  Espaçento na esquerda */
-    color: #F2F2F2;
-/*  Cor do texto */
-    font-weight: 800;
-    /* Peso da fonte */
-
+header a {
+    margin-right: 2vh; 
+    /* Define um espaçamento à direita dos links do cabeçalho */
+    color: #F2F2F2; 
+    /* Define a cor do texto para um tom claro */
+    font-weight: 800; 
+    /* Aplica um peso de fonte mais forte para destacar os links */
 }
 
-header a:hover{
-    border-bottom: 2.5px solid#643DF2;
-    /* Criando uma borda sólida com cor */
-    transition: 0.1s;
-/* Tempo de transição */
+header a:hover {
+    border-bottom: 2.5px solid #643DF2; 
+    /* Adiciona uma borda inferior roxa quando o usuário passa o mouse */
+    transition: 0.1s; 
+    /* Faz uma transição suave de 0.1 segundos para a borda */
 }
-
 
 header i {
-    font-size: 1.5rem;
-    /* Tamanho */
-    color: #643DF2;
-    /* Cor do texto */
+    font-size: 1.5rem; 
+    /* Ajusta o tamanho do ícone */
+    color: #643DF2; 
+    /* Aplica a cor roxa ao ícone */
 }
-
-
-/* Menu Mobile */
-
-.mobile-menu-icon button{
-    background-color: var(--grayb);
-    border: none;
-    padding: 7px;
-    color: var(--white);
-    border-radius: 8px;
-  }
-  
-  .mobile-menu-icon i {
-    font-size: 16px;
-  }
-  
-  .mobile-menu-icon {
-    display: none;
-  }
-  
-  .mobile-menu {
-    display: none;
-  }
-  
-  /* Fim do Mobile Menu */
-  
-
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 
-.sessão-1{
-    padding: min(15vh, 10rem);
-    background-color:  #0D0D0D;
-    width: 100%;
+/* Estilo da seção 1 */
+.sessão-1 {
+    padding: min(15vh, 10rem); 
+    /* Aplica um padding dinâmico baseado na altura da tela */
+    background-color: #0D0D0D; 
+    /* Cor de fundo escura para a seção */
+    width: 100%; 
+    /* Faz com que a seção ocupe toda a largura disponível */
 }
 
-
-.container-section1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+/* Estilo do container na seção 1 */
+.container-section1 {
+    display: flex; 
+    /* Usando flexbox para layout */
+    align-items: center; 
+    /* Alinha os itens verticalmente ao centro */
+    justify-content: center; 
+    /* Alinha os itens horizontalmente ao centro */
+    gap: 30px; 
+    /* Espaçamento entre os itens dentro do container */
 }
 
-.container-section1 h1{
-    font-size: 2.5rem;
-    color: #F2F0EB;
-    margin-bottom: 10px;
+.container-section1 h1 {
+    font-size: 2.5rem; 
+    /* Define o tamanho do título na seção 1 */
+    color: #F2F0EB; 
+    /* Cor do título em tom claro */
+    margin-bottom: 10px; 
+    /* Adiciona um espaçamento inferior */
 }
 
-.container-section1 img{
-    width: 32rem;
+.container-section1 img {
+    width: 32rem; 
+    /* Define a largura das imagens na seção 1 */
 }
 
-.itens-section1 p{
-    color: #F2F0EB;
-    font-size: 1rem;
+.itens-section1 p {
+    color: #F2F0EB; 
+    /* Cor do texto em tom claro */
+    font-size: 1rem; 
+    /* Tamanho da fonte dos parágrafos */
 }
 
-.itens-section1 p span{
-    color: #643DF2;
+.itens-section1 p span {
+    color: #643DF2; 
+    /* Aplica a cor roxa no texto dentro do <span> */
 }
 
-.sessão-2{
-    padding: min(10vh, 10rem);
-    background-color:  #0D0D0D;
-    width: 100%;
+/* Estilo da seção 2 */
+.sessão-2 {
+    padding: min(10vh, 10rem); 
+    /* Aplica padding dinâmico baseado na altura da tela */
+    background-color: #0D0D0D; 
+    /* Cor de fundo escura para a seção */
+    width: 100%; 
+    /* Faz com que a seção ocupe toda a largura disponível */
 }
 
-.container-section2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+/* Estilo do container na seção 2 */
+.container-section2 {
+    display: flex; 
+    /* Usando flexbox para layout */
+    align-items: center; 
+    /* Alinha os itens verticalmente ao centro */
+    justify-content: center; 
+    /* Alinha os itens horizontalmente ao centro */
+    gap: 30px; 
+    /* Espaçamento entre os itens dentro do container */
 }
 
-.container-section2 img{
-width: 32rem;
+.container-section2 img {
+    width: 32rem; 
+    /* Define a largura das imagens na seção 2 */
 }
 
-.container-section2 span{
-    color: #643DF2;
+.container-section2 span {
+    color: #643DF2; 
+    /* Aplica a cor roxa ao texto dentro do <span> */
 }
 
-.itens-section2{
-display: flex;
-flex-wrap: wrap;
+.itens-section2 {
+    display: flex; 
+    /* Usando flexbox para layout */
+    flex-wrap: wrap; 
+    /* Permite que os itens quebrem para a linha seguinte se necessário */
 }
 
-.sessão-2 h2{
-font-size: 2.5rem;
-color: #F2F0EB;
+/* Título da seção 2 */
+.sessão-2 h2 {
+    font-size: 2.5rem; 
+    /* Define o tamanho do título da seção 2 */
+    color: #F2F0EB; 
+    /* Cor clara para o título */
 }
 
-
-.sessão-2 p{
-    font-size: 1rem;
-    color: #F2F0EB;
-    }
+/* Parágrafos dentro da seção 2 */
+.sessão-2 p {
+    font-size: 1rem; 
+    /* Tamanho de fonte padrão para os parágrafos */
+    color: #F2F0EB; 
+    /* Cor clara para o texto */}
 
     
-header i {
-    font-size: 1.5rem;
-    /* Tamanho */
-    color: #643DF2;
-    /* Cor do texto */
-}
 
 
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
-footer{
+footer {
     padding: min(6vh, 3rem);
-/*  Tamanho */
+    /*  Tamanho */
     background-color: #F2F0EB;
-/* Cor de fundo */
-width: 100%;
-/* Preencher 100% do tamanho */
-display: flex;
+    /* Cor de fundo */
+    width: 100%;
+    /* Preencher 100% do tamanho */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-footer i{
+footer i {
     margin-top: 5px;
-color: #0D0D0D;
-/* Cor do texto */
+    color: #0D0D0D;
+    /* Cor do texto */
 }
 
-footer i span{
+footer i span {
     margin-left: 5px;
-/* Espaçamento na esquerda */
+    /* Espaçamento na esquerda */
     font-weight: 800;
     /* Peso da fonte */
 }
 
 
-.container-footer{
-display: flex;
-/* Tornando flex (deixando os itens na vertical) */
-gap: 50px;
-/*  Espaçamento entre os itens */
+.container-footer {
+    display: flex;
+    /* Tornando flex (deixando os itens na vertical) */
+    gap: 50px;
+    /*  Espaçamento entre os itens */
 }
 
-.itens-footer1{
+.itens-footer1 {
     display: flex;
     /* Tornando Flex */
     flex-direction: column;
- justify-content: center;
+    justify-content: center;
     /*  Justificando o conteúdo */
- align-items: center;
+    align-items: center;
     /* Alinhando item a centro */
- font-size: 1.3rem;
-/* Tamanho do texto */
+    font-size: 1.3rem;
+    /* Tamanho do texto */
 }
 
 
 
-footer ul li{
+footer ul li {
     color: #0D0D0D;
     font-weight: 800;
     /* Peso da fonte */
@@ -269,32 +268,29 @@ footer ul li{
     /* Tamanho do texto */
 }
 
-footer ul li span{
-color: #643DF2;     
+footer ul li span {
+    color: #643DF2;
 }
 
-        footer ul li:hover{
-            /* Hover para mudarmos algo ao passar o mouse por cima */
-            color: #643DF2; 
-            transition: 0.4s;  
-        }
+footer ul li:hover {
+    /* Hover para mudarmos algo ao passar o mouse por cima */
+    color: #643DF2;
+    transition: 0.4s;
+}
 
 
-        footer img{
-    margin-left: 7rem;
-            width: 10rem;
-            height: auto;
-            display: flex;
-            /* Tornando Flex */
-            align-items: center;
-            /* Alinhando item a centro */
-            justify-content: center;
-       /*  Justificando o conteúdo */
+footer img {
+    width: 10rem;
+    display: flex;
+    /* Tornando Flex */
+    align-items: center;
+    /* Alinhando item a centro */
+    justify-content: center;
+    /*  Justificando o conteúdo */
+    text-align: center;
 
-                }
+}
 
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
-
-

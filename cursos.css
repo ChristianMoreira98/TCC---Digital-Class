@@ -37,6 +37,7 @@ html{
 /* Para ocupar 100% da largura */
     height: 100vh;
 /*  100vh para que a página tenha a mesma altura do navegador */
+overflow-x: hidden;
 }
 
 
@@ -107,30 +108,6 @@ header i {
 }
 
 
-/* Menu Mobile */
-
-.mobile-menu-icon button{
-    background-color: var(--grayb);
-    border: none;
-    padding: 7px;
-    color: var(--white);
-    border-radius: 8px;
-  }
-  
-  .mobile-menu-icon i {
-    font-size: 16px;
-  }
-  
-  .mobile-menu-icon {
-    display: none;
-  }
-  
-  .mobile-menu {
-    display: none;
-  }
-  
-  /* Fim do Mobile Menu */
-  
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
@@ -153,32 +130,31 @@ header i {
     justify-content: center;
     gap: 50px;
 }
-/* Div pai para alinhar os elementos */
+/* Define uma estrutura flexível para alinhar e centralizar elementos horizontal e verticalmente, com espaçamento entre eles */
 
-
+/* Estilo para o título principal na seção 1 */
 .sessão-1 h1 {
-    font-size: 1,7rem;
+    font-size: 1.7rem;
     text-align: center;
     color: #F2F0EB;
     margin-bottom: 2rem;
 }
-/* Tamanho - Cor - Alinhamento do título */
+/* Ajusta o tamanho da fonte, alinha o texto ao centro, define a cor e adiciona um espaçamento inferior */
 
-
+/* Subtítulo da seção 1 */
 .sessão-1 h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: center;
     color: #bd00ff;
     font-weight: 600;
     font-size: 4rem;
     margin-bottom: 1rem;
 }
-/* Tamanho - Cor - Alinhamento do título */
+/* Centraliza o subtítulo, aplica cor, peso na fonte, tamanho grande e margem inferior */
 
-
-.container-section1{
+/* Configurações gerais do container na seção 1 */
+.container-section1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,32 +162,40 @@ header i {
     gap: 80px;
     margin-bottom: 30px;
 }
+/* Define layout flexível para centralizar e espaçar os elementos, com cor e espaçamento inferior */
 
-.container-section1 p{
+/* Texto dentro do container da seção 1 */
+.container-section1 p {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
+/* Centraliza o texto em um layout flexível */
 
-.p1{
+/* Estilização de parágrafos destacados */
+.p1 {
     font-size: 3rem;
-color: #bd00ff;
-font-weight: 600;}
+    color: #bd00ff;
+    font-weight: 600;
+}
+/* Aplica destaque no tamanho, cor e peso da fonte */
 
-.p1-2{
+/* Estilo para parágrafos menores */
+.p1-2 {
     font-size: 1.5rem;
 }
+/* Define fonte menor para conteúdos adicionais */
 
-
-
-.sessão-2{
-padding: min(15vh, 10rem);
-background-color:  #987cff;
-color: #2F3240;
+/* Estilo geral para a seção 2 */
+.sessão-2 {
+    padding: min(15vh, 10rem);
+    background-color: #987cff;
+    color: #2F3240;
 }
+/* Aplica espaçamento proporcional, cor de fundo e cor do texto */
 
-.sessão-2 h3{
+/* Título principal da seção 2 */
+.sessão-2 h3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,36 +203,45 @@ color: #2F3240;
     color: #2F3240;
     margin-bottom: 3rem;
 }
+/* Centraliza o título, define cor, tamanho grande e adiciona margem inferior */
 
-.container-section2{
-display: flex;
-align-items: center;
-justify-content: center;
+/* Container centralizado para elementos da seção 2 */
+.container-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.p2{
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-font-size: 3rem;
-color: #2b04bb;
+/* Estrutura flexível para centralização */
+
+/* Estilo de parágrafos na seção 2 */
+.p2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    color: #2b04bb;
 }
+/* Centraliza, aplica cor e tamanho grande aos textos destacados */
 
-
-.p2-2{
+/* Estilo para parágrafos menores */
+.p2-2 {
     font-size: 1.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* Texto menor, alinhado e centralizado */
 
-.sessão-3{
+/* Estilo para a seção 3 */
+.sessão-3 {
     padding: min(15vh, 10rem);
-background-color:  #0D0D0D;
-
+    background-color: #0D0D0D;
 }
+/* Aplica fundo escuro e espaçamento interno proporcional */
 
-.sessão-3 h4{
+/* Título da seção 3 */
+.sessão-3 h4 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,56 +249,65 @@ background-color:  #0D0D0D;
     color: #2b04bb;
     margin-bottom: 3rem;
 }
+/* Centraliza, destaca com cor azul e tamanho grande, e adiciona espaçamento inferior */
 
-.container-section3{
+/* Layout do container da seção 3 */
+.container-section3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    }
-    .p3{
+}
+/* Estrutura flexível para centralizar elementos */
+
+/* Parágrafos destacados na seção 3 */
+.p3 {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 3rem;
     color: #2b04bb;
-    }
-    
-    
-    .p3-3{
-        font-size: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #F2F0EB;
-    }
-    
+}
+/* Centraliza, aplica cor azul e destaca com tamanho maior */
 
-    .sessão-4{
-        padding: min(25vh, 20rem);
-        background-color:  #0D0D0D;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        }
+/* Parágrafos menores */
+.p3-3 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2F0EB;
+}
+/* Aplica fonte menor com cor clara e centraliza os textos */
 
+/* Estilo para a seção 4 */
+.sessão-4 {
+    padding: min(25vh, 20rem);
+    background-color: #0D0D0D;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/* Aplica fundo escuro, espaçamento interno grande, layout flexível e quebra de linha quando necessário */
 
-        .sessão-4 img{
-width: 33rem;
-margin-bottom: 10px;
-        }
+/* Estilo para imagens na seção 4 */
+.sessão-4 img {
+    width: 33rem;
+    margin-bottom: 10px;
+}
+/* Define largura fixa para as imagens e adiciona margem inferior */
 
-        .sessão-4 h5{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #F2F2F2;
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-
-
+/* Título da seção 4 */
+.sessão-4 h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F2F2F2;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+/* Centraliza o título com cor clara, tamanho grande e espaçamento inferior */
 
         .sessão-4 a button{
             padding: 8px;
@@ -348,7 +350,10 @@ footer {
     width: 100%;
     /* Preencher 100% do tamanho */
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 
 footer i {
@@ -421,34 +426,8 @@ footer img {
 }
 
 
-.open {
-    display: flex;
-  }
+
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
 
-@media (max-width: 420px) {
- 
-     header ul{
-      display: none;
-    }
-    
-    .mobile-menu-icon {
-      display: block;
-      cursor: pointer;
-    }
-  
-    .mobile-menu ul {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      padding-bottom: 1rem;
-    }
-  
-    .mobile-menu a {
-      color: white;
-      background-color: var(--grayb);
-      border-radius: 5px;
-    }
-  }

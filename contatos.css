@@ -37,6 +37,7 @@ html{
 /* Para ocupar 100% da largura */
     height: 100vh;
 /*  100vh para que a página tenha a mesma altura do navegador */
+overflow-x: hidden;
 }
 
 
@@ -105,32 +106,6 @@ header i {
     color: #643DF2;
     /* Cor do texto */
 }
-
-
-/* Menu Mobile */
-
-.mobile-menu-icon button{
-    background-color: var(--grayb);
-    border: none;
-    padding: 7px;
-    color: var(--white);
-    border-radius: 8px;
-  }
-  
-  .mobile-menu-icon i {
-    font-size: 16px;
-  }
-  
-  .mobile-menu-icon {
-    display: none;
-  }
-  
-  .mobile-menu {
-    display: none;
-  }
-  
-  /* Fim do Mobile Menu */
-  
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
@@ -321,15 +296,18 @@ form input[type=submit]{ /* Aqui estilizamos nosso Botão de enviar*/
 
 
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
-footer{
+footer {
     padding: min(6vh, 3rem);
-/*  Tamanho */
+    /*  Tamanho */
     background-color: #F2F0EB;
-/* Cor de fundo */
-width: 100%;
-/* Preencher 100% do tamanho */
-display: flex;
+    /* Cor de fundo */
+    width: 100%;
+    /* Preencher 100% do tamanho */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 
 footer i{
