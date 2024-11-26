@@ -93,6 +93,28 @@ box-shadow: 0px 2px 2px rgb(255, 255, 255);
 font-size: 1.3rem;
 }
 
+/* Menu Mobile */
+
+.mobile-menu-icon button{
+    background-color: var(--grayb);
+    border: none;
+    padding: 9px;
+    color: var(--white);
+    border-radius: 8px;
+  }
+  
+  .mobile-menu-icon i {
+    font-size: 30px;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+
 header img{
 /* Estilização da logo */
     width: 5rem;

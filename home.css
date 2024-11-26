@@ -43,12 +43,12 @@ html {
 }
 
 /* Whatsapp */
-.whatsapp{
+.whatsapp {
     position: relative;
     z-index: 9999999;
-  }
-  
-  .whatsapp img{
+}
+
+.whatsapp img {
     width: 115px;
     /* Altura e Largura */
     position: fixed;
@@ -57,12 +57,12 @@ html {
     /* Posicionamento do logo do WhatsApp */
     transition: 00.50s ease;
     cursor: pointer;
-  }
-  
-  .whatsapp img:hover {
+}
+
+.whatsapp img:hover {
     transform: scale(1.1);
-  }
-  
+}
+
 
 
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
@@ -131,6 +131,31 @@ header i {
     color: #643DF2;
     /* Cor do texto */
 }
+
+
+/* Menu Mobile */
+
+.mobile-menu-icon button{
+    background-color: var(--grayb);
+    border: none;
+    padding: 9px;
+    color: var(--white);
+    border-radius: 8px;
+  }
+  
+  .mobile-menu-icon i {
+    font-size: 30px;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  /* Fim do Mobile Menu */
 
 
 
@@ -470,6 +495,10 @@ footer img {
 }
 
 
+.open {
+    display: flex;
+}
+
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
@@ -485,7 +514,7 @@ footer img {
         /* Tornando Flex */
         align-items: center;
         /*deicha os itens centralizado*/
-        justify-content: center;
+        justify-content: space-around;
         /*justifica tudo no centro*/
         text-align: center;
         /*alinha o texto no centro*/
@@ -499,7 +528,33 @@ footer img {
         /**/
     }
 
+    #nav-bar {
+        display: none;
+    }
 
+
+    .mobile-menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu a {
+        color: white;
+        background-color: var(--grayb);
+        border-radius: 5px;
+        transition: 1s ease;
+    }
+
+    .mobile-menu a:hover {
+        background-color: var(--purples);
+    }
 
     .section1 {
         padding: 8rem;
