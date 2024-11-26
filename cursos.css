@@ -431,3 +431,77 @@ footer img {
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
 
+@media screen and (max-width: 734px){
+    .menu-desktop{
+        display: none;
+    }
+    /*estilizando o menu */
+
+    .imagem-cabecalho img{
+        padding: 1rem;
+        border-radius: 2rem;
+    }
+    /*estilizando a imagem abaixo do header*/
+    
+    .sessão-1 h2{
+        margin-top: 5rem;
+        font-size: 3rem;
+    }
+
+    .p1-section1 .p1{
+        font-size: 3rem;
+        margin-left: 4rem;
+    }
+
+    .p1-section1 p{
+        font-size: 1,7rem;
+        margin-left: 4rem;
+    }
+
+    
+    .p2-section1 .p1{
+        font-size: 3rem;
+        margin-right: 4rem;
+    }
+
+    .sessão-2{
+        padding: 13rem;
+    }
+    .container-section2 .p2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4rem;
+    }
+
+    .container-section2 .p2-2{
+        font-size: 2rem;
+    }
+
+    .sessão-3{
+        padding: 9rem;
+    }
+
+    .container-section3 .p3{
+        font-size: 2.9rem;
+    }
+
+    .container-section3 .p3-3{
+        font-size: 1.5rem;
+    }
+
+    .sessão-4 img {
+        padding: 3rem;
+        margin-bottom: -70px;
+    }
+
+    .sessão-4 a button{
+        font-size: 2rem;
+        width: 30rem;
+        height: 4rem;
+        
+
+    }
+}
+
+
