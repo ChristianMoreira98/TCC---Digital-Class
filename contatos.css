@@ -62,6 +62,31 @@ html{
   
 
 
+  /* Menu Mobile */
+
+.mobile-menu-icon button{
+    background-color: var(--grayb);
+    border: none;
+    padding: 9px;
+    color: var(--white);
+    border-radius: 8px;
+  }
+  
+  .mobile-menu-icon i {
+    font-size: 30px;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  /* Fim do Mobile Menu */
+
+
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 header{
     padding: min(2vh, 4rem); /*  Tamanho do cabeçalho */
@@ -103,33 +128,9 @@ header a:hover{
 }
 
 
-header i {
-    font-size: 1.5rem;   /* Tamanho */
-    color: #643DF2;   /* Cor do texto */
-}
 
 
-/* estamos começando a estilização do mobile menu  */
-.mobile-menu-icon button{
-    background-color: var(--grayb);
-    border: none; /*Desabilitamos o border do botões*/
-    padding: 7px; /*Tamanho dos botões*/
-    color: var(--white); /*Color dos botões*/
-    border-radius: 8px; /*Arredondamento dos deles*/
-  }
-  
-  .mobile-menu-icon i {
-    font-size: 16px; /*Tamanho do ícone do mobile menu*/
-  }
-  
-  .mobile-menu-icon {
-    display: none;
-  }
-  
-  .mobile-menu {
-    display: none;
-  }
-  
+
 .open {
     display: flex;
   }
@@ -319,10 +320,6 @@ form input[type=submit]{ /* Aqui estilizamos nosso Botão de enviar*/
 
 
 
-
-
-
-
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 footer {
     padding: min(6vh, 3rem);
@@ -365,7 +362,7 @@ gap: 50px; /*  Espaçamento entre os itens */
 footer ul li{
     color: #0D0D0D; /*Cor das*/
     font-weight: 800; /* Peso da fonte */
-    font-size: 1.2rem; /* Tamanho do texto 
+    font-size: 1.2rem; /* Tamanho do texto*/
 }
 
 footer ul li span {
@@ -484,8 +481,13 @@ footer img{
     }
   
     .mobile-menu a {
-      color: white;
-      background-color: var(--grayb);
-      border-radius: 5px;
-    }
+        color: white;
+        background-color: var(--grayb);
+        border-radius: 5px;
+        transition: 1s ease;
+      }
+    
+      .mobile-menu a:hover {
+        background-color: var(--purples);
+      }
   }
