@@ -56,3 +56,17 @@ ScrollReveal().reveal('.container-section3', {
     origin: 'right', // Origem do efeito: o conteúdo virá de baixo pra cima
     distance: '50px', // Diatância que o elemento "viaja" antes de aparecer
     });
+
+
+    // Botão Mobile
+
+    
+function menuShow() {
+    let menuMobile = document.querySelector('.mobile-menu');
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+    } else {
+        menuMobile.classList.add('open');
+        
+    }
+}  

@@ -39,6 +39,29 @@ html{
 }
 
 
+/* Whatsapp */
+.whatsapp{
+    position: relative;
+    z-index: 9999999;
+  }
+  
+  .whatsapp img{
+    width: 115px;
+    /* Altura e Largura */
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    /* Posicionamento do logo do WhatsApp */
+    transition: 00.50s ease;
+    cursor: pointer;
+  }
+  
+  .whatsapp img:hover {
+    transform: scale(1.1);
+  }
+  
+
+
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 header{
     padding: min(2vh, 4rem); /*  Tamanho do cabeçalho */

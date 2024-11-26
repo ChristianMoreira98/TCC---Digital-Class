@@ -11,6 +11,12 @@ ScrollReveal().reveal("#imageThree", {
     duration: 2000,
 });
 
+ScrollReveal().reveal(".header-mobile", {
+    distance: "15px",
+    origin: "top",
+    duration: 2800,
+});
+
 // Menu Mobile
 
 function menuShow() {
