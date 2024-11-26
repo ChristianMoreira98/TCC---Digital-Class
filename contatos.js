@@ -37,6 +37,8 @@ track.style.transform = `translateX(-${index * 100}%)`;
 
 }
 
+
+// Estamos dfinindo uma função da nosso mobile menu
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
