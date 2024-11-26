@@ -37,6 +37,17 @@ track.style.transform = `translateX(-${index * 100}%)`;
 
 }
 
+function menuShow() {
+    let menuMobile = document.querySelector('.mobile-menu');
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+    } else {
+        menuMobile.classList.add('open');
+        
+    }
+}
+
+
 // Define um intervalo para mover o carrossel automaticamente a cada 3 segundos
 setInterval(moveCarousel, 1500);
 

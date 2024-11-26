@@ -41,6 +41,29 @@ overflow-x: hidden;
 }
 
 
+/* Whatsapp */
+.whatsapp{
+    position: relative;
+    z-index: 9999999;
+  }
+  
+  .whatsapp img{
+    width: 115px;
+    /* Altura e Largura */
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    /* Posicionamento do logo do WhatsApp */
+    transition: 00.50s ease;
+    cursor: pointer;
+  }
+  
+  .whatsapp img:hover {
+    transform: scale(1.1);
+  }
+  
+
+
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 header{
     padding: min(2vh, 4rem);
@@ -69,6 +92,28 @@ overflow: hidden; /* */
 box-shadow: 0px 2px 2px rgb(255, 255, 255);
 font-size: 1.3rem;
 }
+
+/* Menu Mobile */
+
+.mobile-menu-icon button{
+    background-color: var(--grayb);
+    border: none;
+    padding: 9px;
+    color: var(--white);
+    border-radius: 8px;
+  }
+  
+  .mobile-menu-icon i {
+    font-size: 30px;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
 
 header img{
 /* Estilização da logo */
@@ -246,7 +291,7 @@ header i {
     align-items: center;
     justify-content: center;
     font-size: 4rem;
-    color: #2b04bb;
+    color: #5b2efa;
     margin-bottom: 3rem;
 }
 /* Centraliza, destaca com cor azul e tamanho grande, e adiciona espaçamento inferior */
@@ -266,7 +311,7 @@ header i {
     justify-content: center;
     text-align: center;
     font-size: 3rem;
-    color: #2b04bb;
+    color: #5b2efa;
 }
 /* Centraliza, aplica cor azul e destaca com tamanho maior */
 

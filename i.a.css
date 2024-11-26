@@ -40,6 +40,30 @@ html{
 overflow-x: hidden;
 }
 
+/* Menu Mobile */
+
+.mobile-menu-icon button{
+    background-color: var(--grayb);
+    border: none;
+    padding: 9px;
+    color: var(--white);
+    border-radius: 8px;
+  }
+  
+  .mobile-menu-icon i {
+    font-size: 30px;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  /* Fim do Mobile Menu */
+
 
 /* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
 header{
@@ -65,7 +89,7 @@ z-index: 999;
 /*  Dando prioridade */
 width: 100%;
 /* Pra ocupar 100% do espaço */
-overflow: hidden; /* */
+overflow-x: hidden; /* */
 box-shadow: 0px 2px 2px rgb(255, 255, 255);
 font-size: 1.3rem;
 }
@@ -291,6 +315,97 @@ footer img {
 
 }
 
+.open {
+    display: flex;
+}
+
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
+
+
+
+@media (max-width: 834px){
+
+.sessão-1{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sessão-1 p{
+font-size: 1.5rem;
+}
+
+
+.container-section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+.container-section1 img{
+    width: 20rem;
+}
+
+
+
+
+.sessão-2{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.sessão-2 p{
+    font-size: 1.5rem;
+    }
+    
+
+.container-section2 img{
+    width: 20rem;
+}
+
+
+#nav-bar {
+    display: none;
+}
+
+
+.mobile-menu-icon {
+    display: block;
+    cursor: pointer;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.mobile-menu a {
+    color: white;
+    background-color: var(--grayb);
+    border-radius: 5px;
+    transition: 1s ease;
+}
+
+.mobile-menu a:hover {
+    background-color: var(--purples);
+}
+
+}
