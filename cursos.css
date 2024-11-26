@@ -470,6 +470,9 @@ footer img {
 
 }
 
+.open {
+    display: flex;
+}
 
 
 
@@ -546,6 +549,35 @@ footer img {
         height: 4rem;
         
 
+    }
+
+    
+    #nav-bar {
+        display: none;
+    }
+
+
+    .mobile-menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu a {
+        color: white;
+        background-color: var(--grayb);
+        border-radius: 5px;
+        transition: 1s ease;
+    }
+
+    .mobile-menu a:hover {
+        background-color: var(--purples);
     }
 }
 
