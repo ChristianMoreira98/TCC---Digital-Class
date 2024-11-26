@@ -42,12 +42,12 @@ html{
 
 
 /* Whatsapp */
-.whatsapp{
+.whatsapp {
     position: relative;
     z-index: 9999999;
-  }
-  
-  .whatsapp img{
+}
+
+.whatsapp img {
     width: 115px;
     /* Altura e Largura */
     position: fixed;
@@ -56,31 +56,12 @@ html{
     /* Posicionamento do logo do WhatsApp */
     transition: 00.50s ease;
     cursor: pointer;
-  }
-  
-  .whatsapp img:hover {
+}
+
+.whatsapp img:hover {
     transform: scale(1.1);
-  }
-  
+}
 
-
-/* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
-header{
-    padding: min(2vh, 4rem);/*  Tamanho do cabeçalho */
-    background-color: #0D0D0D;/* Cor de fundo */
-    display: flex;/* Tornando Flex */
-    justify-content: space-between;/*  Justificando o conteúdo */
-    align-items: center;/* Alinhando itens ao centro */
-    text-align: center;/* Alinhando os textos ao centro */
-    position: sticky;/* Fixando o cabeçalho ao rolar a página */
-    top: 0;/* Zerando a parte de cima */
-    left: 0;/* Zerando a esquerda (Que é por onde o elemento aparece) */
-    z-index: 999;/*  Dando prioridade */
-    width: 100%;/* Pra ocupar 100% do espaço */
-    overflow: hidden; /* */
-    box-shadow: 0px 2px 2px rgb(255, 255, 255);
-    font-size: 1.3rem; /*Tamanho das letras*/
-} 
 
 /* Menu Mobile */
 
@@ -103,33 +84,57 @@ header{
   .mobile-menu {
     display: none;
   }
+  
+  /* Fim do Mobile Menu */
 
-header img{
-/* Estilização da logo */
-    width: 5rem;/* Tamanho da largura */
+
+/* INÍCIO DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
+header{
+    padding: min(2vh, 4rem); /*  Tamanho do cabeçalho */
+    background-color: #0D0D0D; /* Cor de fundo */
     display: flex; /* Tornando Flex */
-    align-items: center;/* Alinhando item a centro */
+    justify-content: space-between; /*  Justificando o conteúdo */
+    align-items: center; /* Alinhando itens ao centro */
+    text-align: center; /* Alinhando os textos ao centro */
+    position: sticky; /* Fixando o cabeçalho ao rolar a página */
+    top: 0; /* Zerando a parte de cima */
+    left: 0; /* Zerando a esquerda (Que é por onde o elemento aparece) */
+    z-index: 999; /*  Dando prioridade */
+    width: 100%; /* Pra ocupar 100% do espaço */  
+    overflow: hidden; /* */
+    box-shadow: 0px 2px 2px rgb(255, 255, 255);
+     font-size: 1.3rem;
+}
+
+/* Estilização da logo */
+header img{
+    width: 5rem; /* Tamanho */
+    display: flex;  /* Tornando Flex */
+    align-items: center; /* Alinhando item a centro */
     justify-content: center; /*  Justificando o conteúdo */
 }
 
 header a{
-    margin-right: 2vh;/*  Espaçento na esquerda */
-    color: #F2F2F2;/* Peso da fonte */
-    font-weight: 800;  /* Peso da fonte */
+    margin-right: 2vh; /*  Espaçento na esquerda */
+    color: #F2F2F2; /*  Cor do texto */
+    font-weight: 800;    /* Peso da fonte */
 
 }
 
+/* Aqui estamos colocando o efeito no header da página */
 header a:hover{
-    border-bottom: 2.5px solid#643DF2; /* Criando uma borda sólida com cor */
-    transition: 0.1s;/* Tempo de transição */
+    border-bottom: 2.5px solid#643DF2;  /* Criando uma borda sólida com cor */
+    transition: 0.1s; /* Tempo de transição */
 }
 
 
 header i {
-    font-size: 1.5rem; /*Tamanho das letras*/
-    color: #643DF2; /* Cor do texto */
+    font-size: 1.5rem;  /* Tamanho das letras */
+    color: #643DF2;  /* Cor do texto */
 }
 /* FIM DA ESTILIZAÇÃO DO NOSSO CABEÇALHO */
+
+
 
 
 
@@ -148,8 +153,8 @@ header i {
     display: flex; /*Tornamos os itens flex*/
     align-items: center; /*Alinhamento*/
     justify-content: center; /*Justificamos os conteúdos*/
-    gap: 50px; /**Espaçamento entre eles/
-}
+    gap: 50px;} /**Espaçamento entre eles/
+
 
 /* Estilo para o título principal na seção 1 */
 /* Ajusta o tamanho da fonte, alinha o texto ao centro, define a cor e adiciona um espaçamento inferior */
@@ -222,7 +227,7 @@ header i {
     font-size: 4rem; /*Tamanhp das letras*/
     color: #2F3240; /*Cor do texto*/
     margin-bottom: 3rem; /*Espaçamento na parte inferior*/
-
+}
 
 /* Container centralizado para elementos da seção 2 */
 .container-section2 {
@@ -239,8 +244,9 @@ header i {
     justify-content: center; /*estamos Justificando os conteúdos para o centro*/
     text-align: center; /*Alinhamento dos textos para o centro*/
     font-size: 3rem; /*Tamanho das letras*/
-    color: #2b04bb; /*Cor das letras*;
-}
+    color: #2b04bb;} /*Cor das letras*;/
+
+
 /* Centraliza, aplica cor e tamanho grande aos textos destacados */
 
 /* Estilo para parágrafos menores */
@@ -265,7 +271,7 @@ header i {
     align-items: center;
     justify-content: center;
     font-size: 4rem;
-    color: #2b04bb;
+    color: #4c1bff;
     margin-bottom: 3rem;
 }
 /* Centraliza, destaca com cor azul e tamanho grande, e adiciona espaçamento inferior */
@@ -285,7 +291,7 @@ header i {
     justify-content: center;
     text-align: center;
     font-size: 3rem;
-    color: #2b04bb;
+    color: #4c1bff;
 }
 /* Centraliza, aplica cor azul e destaca com tamanho maior */
 
@@ -329,6 +335,7 @@ header i {
     color: #F2F2F2; /*Cor do texto*/
     font-size: 3rem; /*Tamanho das letras*/
     margin-bottom: 10px; /*Espaçamento na parte inferior*/
+    color: #F2F0EB;
 }
 
 /* Centraliza o título com cor clara, tamanho grande e espaçamento inferior */
@@ -428,6 +435,41 @@ footer img {
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
 
+
+@media (max-width: 430px) {
+ 
+    ul {
+      display: none;
+
+    }
+    
+    .mobile-menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  
+    .mobile-menu a {
+        color: white;
+        background-color: var(--grayb);
+        border-radius: 5px;
+        transition: 1s ease;
+      }
+    
+      .mobile-menu a:hover {
+        background-color: var(--purples);
+      }
+  }
+
+
+
+
 @media screen and (max-width: 734px){
     .menu-desktop{
         display: none;
@@ -501,31 +543,5 @@ footer img {
     }
 
     
-    #nav-bar {
-        display: none;
-    }
-
-
-    .mobile-menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    .mobile-menu a {
-        color: white;
-        background-color: var(--grayb);
-        border-radius: 5px;
-        transition: 1s ease;
-    }
-
-    .mobile-menu a:hover {
-        background-color: var(--purples);
-    }
+  
 }
