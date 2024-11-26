@@ -429,6 +429,15 @@ footer img {
 
 }
 
+.open {
+    display: flex;
+}
+
+#imageBar {
+    width: 50px;
+    display: none;
+}
+
 
 
 
@@ -437,6 +446,10 @@ footer img {
 
 
 @media (max-width: 430px) {
+
+    #imageBar {
+        display: flex;
+    }
  
     ul {
       display: none;
@@ -506,11 +519,28 @@ footer img {
     .sessão-2{
         padding: 13rem;
     }
+
+    .container-section1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-section2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
     .container-section2 .p2{
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 4rem;
+        width: 100%;
     }
 
     .container-section2 .p2-2{
@@ -519,6 +549,14 @@ footer img {
 
     .sessão-3{
         padding: 9rem;
+    }
+
+    .container-section3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .container-section3 .p3{
@@ -539,9 +577,39 @@ footer img {
         width: 30rem;
         height: 4rem;
         
-
     }
 
+        footer{
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    }
     
-  
+    
+    footer .páginas {
+        display: none;
+    }
+    
+    
+    .container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    
+    
+    footer img{
+        width: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 7rem;
+    }
+
+    #imageBar {
+        display: flex;
+    }
 }

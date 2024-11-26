@@ -438,6 +438,12 @@ footer img {
     display: flex;
 }
 
+#imageBar {
+    width: 50px;
+    display: none;
+  }
+
+
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
@@ -476,11 +482,14 @@ footer img {
 
 
 
+
   
 
 
 @media (max-width: 834px) and (max-width: 1200px){
-
+    #imageBar {
+        display: flex;
+      }
 
     header {
         padding: 3rem;
@@ -617,7 +626,7 @@ footer img {
 
 
     footer {
-        padding: 4rem;
+        padding: 1rem;
         /*tamanho pagina*/
         display: flex;
         /*deixa flex*/
@@ -627,10 +636,8 @@ footer img {
         /*alinha no centro*/
         justify-content: center;
         /*deixa o  texto centralizado*/
+
     }
-
-
-
 
     .container-footer {
         display: flex;
@@ -644,7 +651,7 @@ footer img {
 
 
     .container-footer img {
-        width: 10rem;
+        width:10rem;
         /*largura*/
         display: flex;
         /*deixa flex*/
@@ -652,6 +659,7 @@ footer img {
         /*alinha no centro*/
         justify-content: center;
         /*deixa o  texto centralizado*/
+        margin-left: 6rem;
     }
 
 }

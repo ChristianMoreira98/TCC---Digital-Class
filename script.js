@@ -17,6 +17,18 @@ ScrollReveal().reveal(".header-mobile", {
     duration: 2800,
 });
 
+ScrollReveal().reveal("#imageText", {
+    distance: "100px",
+    origin: "right",
+    duration: 2800,
+});
+
+ScrollReveal().reveal(".box-text", {
+    distance: "100px",
+    origin: "left",
+    duration: 2800,
+});
+
 // Menu Mobile
 
 function menuShow() {

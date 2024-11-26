@@ -385,11 +385,20 @@ color: #643DF2;
      justify-content: center;  /*  Justificando o conteúdo */
  }
 
+ #imageBar {
+    width: 50px;
+    display: none;
+ }
+
 
 
 /* FIM DA ESTILIZAÇÃO DO NOSSO RODAPÉ */
 
 @media (max-width: 830px) {
+
+    #imageBar {
+        display: flex;
+    }
 
 /* A responsividade do header da página do contato */
     header{
@@ -432,9 +441,9 @@ form{
 
 
     footer{
-        padding: 4rem;
+        padding: 1rem;
         display: flex;
-  flex-direction: column;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
 }
@@ -462,6 +471,10 @@ footer img{
 }
 
 @media (max-width: 420px) {
+
+    #imageBar {
+        display: flex;
+    }
  
     ul {
       display: none;

@@ -44,6 +44,11 @@ overflow-x: hidden;
 
 /* Menu Mobile */
 
+#imageBar {
+    width: 50px;
+    display: none;
+}
+
 .mobile-menu-icon button{
     background-color: var(--grayb);
     border: none;
@@ -736,6 +741,10 @@ footer img {
 
 
 @media (max-width: 834px){
+
+    #imageBar {
+        display: flex;
+    }
 
 .sessão-1{
     padding: 3rem;
