@@ -492,6 +492,7 @@ footer img {
     .imagem-cabecalho img{
         padding: 1rem;
         border-radius: 2rem;
+        width: 100%;
     }
     /*estilizando a imagem abaixo do header*/
     
