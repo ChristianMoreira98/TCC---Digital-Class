@@ -473,12 +473,6 @@ footer img {
       }
   }
 
-
-
-
-  
-
-
 @media (max-width: 834px) and (max-width: 1200px){
 
 
@@ -630,8 +624,6 @@ footer img {
     }
 
 
-
-
     .container-footer {
         display: flex;
         /*deixa flex*/
@@ -641,7 +633,6 @@ footer img {
         /*deixa o  texto centralizado*/
         flex-wrap: wrap;
     }
-
 
     .container-footer img {
         width: 10rem;
@@ -655,4 +646,3 @@ footer img {
     }
 
 }
-
